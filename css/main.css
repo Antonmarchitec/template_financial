@@ -1,0 +1,111 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+.container__main {
+  width: 100%;
+  max-width: 1440px;
+  margin: auto;
+  padding: 20px;
+  background: rgb(83, 83, 83);
+}
+.container__main .grid__container {
+  width: 100%;
+  padding: 20px 0px;
+  background: brown;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  grid-gap: 1em;
+  grid-template-areas: "grid__header__superior   grid__header__superior    grid__header__superior" "grid__header__navbar     grid__header__navbar      grid__header__navbar" "grid__banner             grid__banner              grid__banner" "grid__seccion__uno       grid__seccion__uno        grid__seccion__uno" "grid__seccion__dos       grid__seccion__dos        grid__seccion__dos" "grid__footer             grid__footer              grid__footer";
+}
+.container__main .grid__container .grid__header__superior {
+  background: rgb(239, 97, 97);
+  padding: 5px 0px;
+  grid-area: grid__header__superior;
+}
+.container__main .grid__container .grid__header__navbar {
+  background: rgb(239, 97, 97);
+  padding: 5px 0px;
+  grid-area: grid__header__navbar;
+}
+.container__main .grid__container .grid__banner {
+  background: rgb(239, 97, 97);
+  padding: 5px 0px;
+  grid-area: grid__banner;
+}
+.container__main .grid__container .grid__seccion__uno {
+  background: rgb(239, 97, 97);
+  padding: 5px 0px;
+  grid-area: grid__seccion__uno;
+}
+.container__main .grid__container .grid__seccion__dos {
+  background: rgb(239, 97, 97);
+  padding: 5px 0px;
+  grid-area: grid__seccion__dos;
+}
+.container__main .grid__container .grid__footer {
+  background: rgb(239, 97, 97);
+  padding: 5px 0px;
+  grid-area: grid__footer;
+}
+
+.contHeaderSuperior {
+  width: 100%;
+  padding: 5px 0px;
+  background: rgb(27, 27, 27);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.contHeaderSuperior .contHeaderSuperior__blocks {
+  width: 50%;
+  padding: 5px 0px;
+  background: rgb(27, 27, 27);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contHeaderSuperior .contHeaderSuperior__blocks .blocks__box {
+  width: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.contHeaderSuperior .contHeaderSuperior__blocks .blocks__box .icon__box {
+  padding: 5px 8px;
+  color: white;
+}
+.contHeaderSuperior .contHeaderSuperior__blocks .blocks__box .date__box {
+  font-weight: 300;
+  color: white;
+  font-size: 14px;
+}
+.contHeaderSuperior .contHeaderSuperior__networks {
+  width: 160px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.contHeaderSuperior .contHeaderSuperior__networks .icon__networks {
+  padding: 8px;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color: white;
+  transition: 0.2s all;
+}
+.contHeaderSuperior .contHeaderSuperior__networks .icon__networks:hover {
+  background: rgb(0, 157, 157);
+  cursor: pointer;
+  transform: translateY(2px) rotate(-5deg);
+}
+
+/*# sourceMappingURL=main.css.map */

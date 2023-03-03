@@ -1,0 +1,67 @@
+@import "variables";
+
+.contHeaderSuperior{
+    width: 100%;
+    padding: 5px 0px;
+    background:$color_black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    //BLOCKS
+    .contHeaderSuperior__blocks{
+        width: 50%;
+        padding: 5px 0px;
+        background:$color_black;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .blocks__box{
+            width:auto;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            .icon__box{
+                padding: 5px 8px;
+                color: white;
+            }
+            .date__box{
+                font-weight:300;
+                color: white;
+                font-size: 14px;
+            }
+        }
+    }
+
+    //BLOCKS REDES
+    .contHeaderSuperior__networks{
+        width: 160px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .icon__networks{
+            padding: 8px;
+            background:transparent;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 20px;
+            color: white;
+            transition: 0.2s all;
+        }
+        .icon__networks:hover{
+            background: rgb(0, 157, 157);
+            cursor: pointer;
+            transform: translateY(2px) rotate(-5deg);
+        }
+    }
+
+    .contHeaderSuperior__networks:hover{
+
+    }
+
+
+        
+    
+}
