@@ -21,7 +21,7 @@
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
   grid-gap: 1em;
-  grid-template-areas: "grid__header__superior   grid__header__superior    grid__header__superior" "grid__header__navbar     grid__header__navbar      grid__header__navbar" "grid__banner             grid__banner              grid__banner" "grid__seccion__uno       grid__seccion__uno        grid__seccion__uno" "grid__seccion__dos       grid__seccion__dos        grid__seccion__dos" "grid__footer             grid__footer              grid__footer";
+  grid-template-areas: "grid__header__superior   grid__header__superior    grid__header__superior" "grid__header__menu       grid__header__menu        grid__header__menu" "grid__banner             grid__banner              grid__banner" "grid__seccion__uno       grid__seccion__uno        grid__seccion__uno" "grid__seccion__dos       grid__seccion__dos        grid__seccion__dos" "grid__footer             grid__footer              grid__footer";
 }
 .container__main .grid__container .grid__header__superior {
   background: rgb(239, 97, 97);
@@ -105,7 +105,7 @@
 .contHeaderSuperior .contHeaderSuperior__networks .icon__networks:hover {
   background: rgb(0, 157, 157);
   cursor: pointer;
-  transform: translateY(2px) rotate(-5deg);
+  transform: translateY(2px);
 }
 
 /*# sourceMappingURL=main.css.map */
