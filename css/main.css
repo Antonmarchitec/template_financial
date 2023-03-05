@@ -212,4 +212,27 @@ contHeaderMenu__logo
   font-size: 20px;
 }
 
+.contSecctionUno {
+  width: 100%;
+  padding: 50px 0px;
+  background: #ffffff;
+  text-align: center;
+}
+.contSecctionUno .contSecctionUno__title {
+  font-size: 28px;
+  color: rgb(27, 27, 27);
+}
+.contSecctionUno .contSecctionUno__description {
+  width: 60%;
+  padding: 5px 0px;
+  margin: 10px auto;
+  color: rgb(27, 27, 27);
+}
+.contSecctionUno .contSecctionUno__blocks {
+  margin: 30px auto;
+  width: 90%;
+  padding: 5px 0px;
+  background: brown;
+}
+
 /*# sourceMappingURL=main.css.map */
