@@ -8,6 +8,10 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
 
     //BLOCKS
     .contHeaderSuperior__blocks{
@@ -51,7 +55,8 @@
             transition: 0.2s all;
         }
         .icon__networks:hover{
-            background: rgb(0, 157, 157);
+            background: $color_white;
+            color: $color_azulMarino;
             cursor: pointer;
             transform: translateY(2px);
         }

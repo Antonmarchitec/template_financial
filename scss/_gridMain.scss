@@ -6,11 +6,11 @@
     max-width: 1440px;
     margin: auto;
     padding: 20px;
-    background: rgb(83, 83, 83);
+    background: rgb(197, 197, 197);
     .grid__container{
         width: 100%;
         padding: 20px 0px;
-        background:brown;
+        background:rgba(102, 239, 78, 0.347);
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: auto;
@@ -24,6 +24,7 @@
             "grid__footer             grid__footer              grid__footer";
 
             .grid__header__superior{
+                height: 60px;
                 background: rgb(239, 97, 97);
                 padding: 5px 0px;
                 grid-area: grid__header__superior;
@@ -46,21 +47,18 @@
                 background: rgb(239, 97, 97);
                 padding: 5px 0px;
                 grid-area: grid__seccion__uno;
-                display: none;
             }
 
             .grid__seccion__dos{
                 background: rgb(239, 97, 97);
                 padding: 5px 0px;
                 grid-area: grid__seccion__dos;
-                display: none;
             }
 
             .grid__footer{
                 background: rgb(239, 97, 97);
                 padding: 5px 0px;
                 grid-area: grid__footer;
-                display: none;
             }
 
     }
