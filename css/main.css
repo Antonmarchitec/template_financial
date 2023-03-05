@@ -119,25 +119,24 @@ contHeaderMenu__logo
 .contHeaderMenu {
   width: 100%;
   padding: 5px 0px;
-  background: grey;
+  background: rgb(255, 255, 255);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
 .contHeaderMenu .contHeaderMenu__logo {
-  width: 240px;
-  height: 50px;
-  background: orange;
+  width: 280px;
+  height: 70px;
 }
 .contHeaderMenu .contHeaderMenu__menu {
   width: auto;
   padding: 5px 0px;
-  background: orange;
+  background: rgb(255, 255, 255);
+  margin-left: 140px;
 }
 .contHeaderMenu .contHeaderMenu__menu .menu__list {
   width: 750px;
-  background-color: rgb(255, 255, 255);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -149,11 +148,13 @@ contHeaderMenu__logo
   padding: 8px 0px;
   position: relative;
   text-align: center;
-  background: hotpink;
 }
 .contHeaderMenu .contHeaderMenu__menu .menu__list .menu__item .menu__link {
   text-decoration: none;
   color: rgb(27, 27, 27);
+}
+.contHeaderMenu .contHeaderMenu__menu .menu__list .menu__item .menu__link:hover {
+  color: grey;
 }
 .contHeaderMenu .contHeaderMenu__menu .menu__list .menu__item .iconArrow {
   margin-left: 5px;
@@ -190,7 +191,18 @@ contHeaderMenu__logo
 .contHeaderMenu .contHeaderMenu__menu .menu__list .menu__item:hover .submenuList {
   opacity: 1;
   visibility: visible;
-  transform: translateX(10px);
+  transform: translateX(30px);
+  cursor: pointer;
+}
+.contHeaderMenu .contHeaderMenu__glass {
+  padding: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.contHeaderMenu .contHeaderMenu__glass .iconGlass {
+  cursor: pointer;
+  font-size: 20px;
 }
 
 /*# sourceMappingURL=main.css.map */
