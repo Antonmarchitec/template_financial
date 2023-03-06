@@ -6,7 +6,7 @@
     background: $color_white;
     text-align: center;
     .contSecctionUno__title{
-        font-size: $font_titles;
+        font-size: $font_titles ;
         color: $color_black;
     }
 
@@ -17,10 +17,6 @@
         color: $color_black;
     }
 
-    .contSecctionUno__blocks{
-        margin: 30px auto;
-        width: 90%;
-        padding: 5px 0px;
-        background: brown;
-    }
+    /*.contSecctionUno__blocks{} 
+    SE ENCUENTRA EN ARCHIVO CSS "swiper_section_one.css" */
 }

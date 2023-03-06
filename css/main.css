@@ -217,6 +217,8 @@ contHeaderMenu__logo
   padding: 50px 0px;
   background: #ffffff;
   text-align: center;
+  /*.contSecctionUno__blocks{} 
+  SE ENCUENTRA EN ARCHIVO CSS "swiper_section_one.css" */
 }
 .contSecctionUno .contSecctionUno__title {
   font-size: 28px;
@@ -227,12 +229,6 @@ contHeaderMenu__logo
   padding: 5px 0px;
   margin: 10px auto;
   color: rgb(27, 27, 27);
-}
-.contSecctionUno .contSecctionUno__blocks {
-  margin: 30px auto;
-  width: 90%;
-  padding: 5px 0px;
-  background: brown;
 }
 
 /*# sourceMappingURL=main.css.map */
