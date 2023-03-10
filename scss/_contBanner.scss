@@ -1,0 +1,45 @@
+@import "variables";
+
+
+.contBanner{
+    width: 100%;
+    padding: 5px 0px;
+    background: teal;
+    position: relative;
+    .contBanner__blocks{
+        width:400%;
+        background: yellow;
+        padding: 10px 0px;
+        display: flex;
+        flex-direction: row;
+        .contBanner__boxs{
+            width: 100%;
+            height: 400px;
+            padding: 5px;
+            background: rgb(37, 38, 38);
+            color: white;
+            margin-right: 5px;
+        }
+        
+    }
+
+    .arrowLeft{
+        width: 50px;
+        height: 50px;
+        background: grey;
+        position: absolute;
+        top: calc(100% - 200px);
+        left: 20px;
+        cursor: pointer;
+    }
+    
+    .arrowRight{
+        width: 50px;
+        height: 50px;
+        background: grey;
+        position: absolute;
+        top: calc(100% - 200px);
+        right: 20px;
+        cursor: pointer;
+    }
+}

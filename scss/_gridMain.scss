@@ -5,7 +5,6 @@
     width: 100%;
     max-width: 1440px;
     margin: auto;
-    padding: 20px;
     background: rgb(197, 197, 197);
     .grid__container{
         width: 100%;
@@ -24,7 +23,7 @@
             "grid__footer             grid__footer              grid__footer";
 
             .grid__header__superior{
-                height: 60px;
+                height: 80px;
                 background: rgb(239, 97, 97);
                 padding: 5px 0px;
                 grid-area: grid__header__superior;

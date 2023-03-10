@@ -10,7 +10,6 @@
   width: 100%;
   max-width: 1440px;
   margin: auto;
-  padding: 20px;
   background: rgb(197, 197, 197);
 }
 .container__main .grid__container {
@@ -24,7 +23,7 @@
   grid-template-areas: "grid__header__superior   grid__header__superior    grid__header__superior" "grid__header__menu       grid__header__menu        grid__header__menu" "grid__banner             grid__banner              grid__banner" "grid__seccion__uno       grid__seccion__uno        grid__seccion__uno" "grid__seccion__dos       grid__seccion__dos        grid__seccion__dos" "grid__footer             grid__footer              grid__footer";
 }
 .container__main .grid__container .grid__header__superior {
-  height: 60px;
+  height: 80px;
   background: rgb(239, 97, 97);
   padding: 5px 0px;
   grid-area: grid__header__superior;
@@ -210,6 +209,46 @@ contHeaderMenu__logo
 .contHeaderMenu .contHeaderMenu__glass .iconGlass {
   cursor: pointer;
   font-size: 20px;
+}
+
+.contBanner {
+  width: 100%;
+  padding: 5px 0px;
+  background: teal;
+  position: relative;
+}
+.contBanner .contBanner__blocks {
+  width: 400%;
+  background: yellow;
+  padding: 10px 0px;
+  display: flex;
+  flex-direction: row;
+}
+.contBanner .contBanner__blocks .contBanner__boxs {
+  width: 100%;
+  height: 400px;
+  padding: 5px;
+  background: rgb(37, 38, 38);
+  color: white;
+  margin-right: 5px;
+}
+.contBanner .arrowLeft {
+  width: 50px;
+  height: 50px;
+  background: grey;
+  position: absolute;
+  top: calc(100% - 200px);
+  left: 20px;
+  cursor: pointer;
+}
+.contBanner .arrowRight {
+  width: 50px;
+  height: 50px;
+  background: grey;
+  position: absolute;
+  top: calc(100% - 200px);
+  right: 20px;
+  cursor: pointer;
 }
 
 .contSecctionUno {
