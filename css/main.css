@@ -42,7 +42,6 @@
   background: rgb(239, 97, 97);
   padding: 5px 0px;
   grid-area: grid__seccion__uno;
-  display: none;
 }
 .container__main .grid__container .grid__seccion__dos {
   background: rgb(239, 97, 97);
@@ -216,7 +215,6 @@ contHeaderMenu__logo
 
 .contBanner {
   width: 100%;
-  background: rgb(46, 78, 78);
   position: relative;
   overflow: hidden;
 }
@@ -241,7 +239,7 @@ contHeaderMenu__logo
   padding-top: 80px;
   position: absolute;
   top: 0;
-  background: rgba(0, 0, 0, 0.641);
+  background: rgba(8, 31, 49, 0.7254901961);
   text-align: center;
 }
 .contBanner .contBanner__blocks .contBanner__boxs .boxs__article .article__title {
@@ -258,7 +256,7 @@ contHeaderMenu__logo
 .contBanner .contBanner__blocks .contBanner__boxs .boxs__article .article__button {
   margin: 60px auto;
   width: 40%;
-  padding: 30px 0px;
+  padding: 10px 0px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -359,6 +357,59 @@ contHeaderMenu__logo
   padding: 5px 0px;
   margin: 10px auto;
   color: rgb(27, 27, 27);
+}
+.contSecctionUno .contSecctionUno__blocks {
+  width: 90%;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.contSecctionUno .contSecctionUno__blocks .blocks__boxs {
+  width: 280px;
+  height: 320px;
+  position: relative;
+  color: white;
+  overflow: hidden;
+}
+.contSecctionUno .contSecctionUno__blocks .blocks__boxs .blocks__box__image {
+  width: 100%;
+  height: 100%;
+}
+.contSecctionUno .contSecctionUno__blocks .blocks__boxs .blocks__box__contDescription {
+  width: 100%;
+  height: 100%;
+  background: rgba(8, 31, 49, 0.7254901961);
+  position: absolute;
+  top: 240px;
+  padding: 20px;
+  transition: 0.2s all;
+}
+.contSecctionUno .contSecctionUno__blocks .blocks__boxs .blocks__box__contDescription .contDescription__title {
+  font-size: 25px;
+  height: 38px;
+  line-height: 23px;
+}
+.contSecctionUno .contSecctionUno__blocks .blocks__boxs .blocks__box__contDescription .contDescription__text {
+  margin-top: 20px;
+  color: rgba(196, 223, 244, 0.9019607843);
+}
+.contSecctionUno .contSecctionUno__blocks .blocks__boxs .blocks__box__contDescription .contDescription__button {
+  margin-top: 30px;
+  padding: 8px 40px;
+  border: 1px solid rgba(196, 223, 244, 0.9019607843);
+  background: transparent;
+  color: #ffffff;
+  transition: 0.5s all;
+}
+.contSecctionUno .contSecctionUno__blocks .blocks__boxs .blocks__box__contDescription .contDescription__button:hover {
+  background: rgb(27, 27, 27);
+  cursor: pointer;
+}
+.contSecctionUno .contSecctionUno__blocks .blocks__boxs:hover .blocks__box__contDescription {
+  top: 0;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=main.css.map */

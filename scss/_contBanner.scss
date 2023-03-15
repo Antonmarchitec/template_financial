@@ -3,7 +3,6 @@
 
 .contBanner{
     width: 100%;
-    background: rgb(46, 78, 78);
     position: relative;
     overflow: hidden;
     .contBanner__blocks{
@@ -26,7 +25,7 @@
                 padding-top: 80px;
                 position: absolute;
                 top: 0;
-                background: rgba(0, 0, 0, 0.641);
+                background:$color_azulVerde;
                 text-align: center;
                 .article__title{
                     color: white;
@@ -44,7 +43,7 @@
                 .article__button{
                     margin:60px auto;
                     width:40%;
-                    padding: 30px 0px;
+                    padding: 10px 0px;
                     display: flex;
                     justify-content: space-around;
                     align-items: center;
