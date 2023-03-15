@@ -255,17 +255,37 @@ contHeaderMenu__logo
   color: rgb(191, 191, 191);
   font-weight: 300;
 }
-.contBanner .contBanner__blocks .contBanner__boxs .boxs__article .slide__btn {
-  margin-top: 30px;
+.contBanner .contBanner__blocks .contBanner__boxs .boxs__article .article__button {
+  margin: 60px auto;
+  width: 40%;
+  padding: 30px 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.contBanner .contBanner__blocks .contBanner__boxs .boxs__article .article__button .button__learn {
   width: 220px;
   padding: 10px 0px;
   border: 1.5px solid white;
   background: transparent;
   color: white;
-  transition: 0.2s linear;
+  transition: 0.5s all;
 }
-.contBanner .contBanner__blocks .contBanner__boxs .boxs__article .slide__btn:hover {
-  background: rgba(0, 0, 0, 0.373);
+.contBanner .contBanner__blocks .contBanner__boxs .boxs__article .article__button .button__learn:hover {
+  background: rgb(27, 27, 27);
+  cursor: pointer;
+}
+.contBanner .contBanner__blocks .contBanner__boxs .boxs__article .article__button .button__contact {
+  width: 220px;
+  padding: 10px 0px;
+  border: 1.5px solid rgb(27, 27, 27);
+  background: rgb(27, 27, 27);
+  color: white;
+  transition: 0.5s all;
+}
+.contBanner .contBanner__blocks .contBanner__boxs .boxs__article .article__button .button__contact:hover {
+  border: 1.5px solid white;
+  cursor: pointer;
 }
 .contBanner .arrowLeft {
   width: 50px;
