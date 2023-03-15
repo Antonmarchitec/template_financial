@@ -9,7 +9,7 @@ let arrowRight = document.querySelector(".arrowRight")
 
 
         document.addEventListener("click", e =>{
-        if(e.target.classList.contains("arrowRight")){
+        if(e.target.id === "arrowRight"){
             let cajasB = document.querySelectorAll("#cajas")
             let primerEle = cajasB[cajasB.length - 3 ]
             container.style.marginLeft = "-300%"
@@ -20,7 +20,7 @@ let arrowRight = document.querySelector(".arrowRight")
                 container.style.marginLeft = "-100%"
             },300)
             
-        }else if(e.target.classList.contains("arrowLeft")){
+        }else if(e.target.id === "arrowLeft"){
             let elementos = document.querySelectorAll("#cajas")
             let ultimoBloque = elementos[elementos.length - 1]
             container.style.marginLeft = "0"
