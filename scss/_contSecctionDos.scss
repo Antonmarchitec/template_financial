@@ -1,0 +1,19 @@
+@import "variables";
+
+.contSecctionDos{
+    width: 100%;
+    background: white;
+    .contSecctionDos__title{
+        color: $color_black;
+        text-align: center;
+        font-size: $font_titles;
+    }
+
+    .contSecctionDos__description{
+        margin:20px auto;
+        width: 60%;
+        text-align: center;
+    }
+
+    
+}

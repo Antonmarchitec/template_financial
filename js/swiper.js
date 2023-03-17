@@ -1,3 +1,14 @@
+/*var swiper = new Swiper('.swiper', {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    freeMode: true,
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+    },
+  });*/
+
+
 //Initialize Swiper -->
 let swiper = new Swiper(".swiper", {
     slidesPerView: 1,
@@ -19,15 +30,15 @@ let swiper = new Swiper(".swiper", {
         spaceBetween: 10,
       },
       680: {
-        slidesPerView: 1,
+        slidesPerView: 3,
         spaceBetween: 10,
       },
       920: {
-        slidesPerView: 1,
+        slidesPerView: 3,
         spaceBetween: 10,
       },
       1240: {
-        slidesPerView: 1,
+        slidesPerView: 3,
         spaceBetween: 10,
       },
     } 
