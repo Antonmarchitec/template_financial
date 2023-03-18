@@ -238,7 +238,7 @@ contHeaderMenu__logo
   padding-top: 80px;
   position: absolute;
   top: 0;
-  background: rgba(8, 31, 49, 0.7254901961);
+  background: rgba(0, 0, 0, 0.586);
   text-align: center;
 }
 .contBanner .contBanner__blocks .contBanner__boxs .boxs__article .article__title {
@@ -341,7 +341,7 @@ contHeaderMenu__logo
 
 .contSecctionUno {
   width: 100%;
-  padding: 100px 0px;
+  padding: 80px 0px;
   background: #ffffff;
   text-align: center;
 }
@@ -475,6 +475,14 @@ contHeaderMenu__logo
 }
 .contSectionImg .contSecctionDos .contSecctionDos__blocks .swiper .swiper-pagination .swiper-pagination-bullet {
   background: rgba(8, 31, 49, 0.7254901961);
+}
+
+.boton__subir {
+  font-size: 50px;
+  position: fixed;
+  color: #ffffff;
+  bottom: 30px;
+  right: 50px;
 }
 
 /*# sourceMappingURL=main.css.map */
