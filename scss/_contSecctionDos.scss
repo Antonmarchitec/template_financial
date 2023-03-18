@@ -4,6 +4,7 @@
 .contSectionImg{
     background-image: url(../source/FONDO2.jpg);
     background-size: 100% 100%;
+    background-attachment: fixed;
     .contSecctionDos{
         width: 100%;
         background:$color_azulVerde;

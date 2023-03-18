@@ -438,6 +438,7 @@ contHeaderMenu__logo
 .contSectionImg {
   background-image: url(../source/FONDO2.jpg);
   background-size: 100% 100%;
+  background-attachment: fixed;
 }
 .contSectionImg .contSecctionDos {
   width: 100%;
