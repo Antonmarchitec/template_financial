@@ -7,6 +7,34 @@
     font-size: 16px;
 }
 
+/* SCROLLING SUAVE */
+html{
+    scroll-behavior: smooth
+}
+
+
+/*SCROOLL PERSONALIZADO */
+body{
+    scroll-behavior:unset;
+    background:$color_black;
+
+}
+
+body::-webkit-scrollbar{
+    width: 15px;
+    
+}
+body::-webkit-scrollbar-thumb{
+    background: rgb(165, 165, 165);
+    border-radius: 20px;
+    height: 80px;
+}
+body::-webkit-scrollbar-thumb:hover{
+    background: rgb(50, 50, 50);
+    height: 150px;
+    
+}
+
 
 //IMPORTTS
 @import "gridMain";

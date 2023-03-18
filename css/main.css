@@ -6,6 +6,32 @@
   font-size: 16px;
 }
 
+/* SCROLLING SUAVE */
+html {
+  scroll-behavior: smooth;
+}
+
+/*SCROOLL PERSONALIZADO */
+body {
+  scroll-behavior: unset;
+  background: rgb(27, 27, 27);
+}
+
+body::-webkit-scrollbar {
+  width: 15px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: rgb(165, 165, 165);
+  border-radius: 20px;
+  height: 80px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: rgb(50, 50, 50);
+  height: 150px;
+}
+
 .container__main {
   width: 100%;
   max-width: 1440px;
@@ -477,12 +503,36 @@ contHeaderMenu__logo
   background: rgba(8, 31, 49, 0.7254901961);
 }
 
-.boton__subir {
+.contBtnTop {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contBtnTop .boton__subir {
   font-size: 50px;
   position: fixed;
   color: #ffffff;
   bottom: 30px;
   right: 50px;
+  animation-name: moverTop;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes moverTop {
+  0% {
+    transform: translateY(-5px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(5px);
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
