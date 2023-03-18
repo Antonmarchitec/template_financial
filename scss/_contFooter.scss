@@ -1,0 +1,50 @@
+@import "variables";
+
+.contFooter{
+    width: 100%;
+    padding: 10px 0px;
+    background: $color_black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    .contFooter__QR{
+        width: 200px;
+        height: 200px;
+        //background: grey;
+        //padding: 5px;
+        margin-left: 100px;
+    }
+
+    .contFooter__contact{
+        width: 250px;
+        padding: 10px;
+        margin-right: 100px;
+        .contact__title{
+            color: $color_white;
+            font-size: 22px;
+        }
+
+        .contact__block{
+            margin-top: 10px;
+            width: 100%;
+            padding: 5px 0px;
+            .contact__block__box{
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                margin-bottom: 5px;
+                .footer__icon{
+                    width: 25px;
+                    color: $color_white;
+                }
+                .footer__text{
+                    color: $color_white;
+                }
+            }
+           
+        }
+    }
+
+    
+}

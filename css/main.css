@@ -78,7 +78,6 @@ body::-webkit-scrollbar-thumb:hover {
   background: rgb(239, 97, 97);
   padding: 5px 0px;
   grid-area: grid__footer;
-  display: none;
 }
 
 .contHeaderSuperior {
@@ -503,14 +502,57 @@ contHeaderMenu__logo
   background: rgba(8, 31, 49, 0.7254901961);
 }
 
-.contBtnTop {
+.contFooter {
+  width: 100%;
+  padding: 10px 0px;
+  background: rgb(27, 27, 27);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.contFooter .contFooter__QR {
+  width: 200px;
+  height: 200px;
+  margin-left: 100px;
+}
+.contFooter .contFooter__contact {
+  width: 250px;
+  padding: 10px;
+  margin-right: 100px;
+}
+.contFooter .contFooter__contact .contact__title {
+  color: #ffffff;
+  font-size: 22px;
+}
+.contFooter .contFooter__contact .contact__block {
+  margin-top: 10px;
+  width: 100%;
+  padding: 5px 0px;
+}
+.contFooter .contFooter__contact .contact__block .contact__block__box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.contFooter .contFooter__contact .contact__block .contact__block__box .footer__icon {
+  width: 25px;
+  color: #ffffff;
+}
+.contFooter .contFooter__contact .contact__block .contact__block__box .footer__text {
+  color: #ffffff;
+}
+
+.boton_top {
   width: 50px;
   height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
+  opacity: 1;
 }
-.contBtnTop .boton__subir {
+.boton_top .boton__subir {
   font-size: 50px;
   position: fixed;
   color: #ffffff;
@@ -533,6 +575,10 @@ contHeaderMenu__logo
   100% {
     transform: translateY(5px);
   }
+}
+
+.boton_topJS {
+  opacity: 1;
 }
 
 /*# sourceMappingURL=main.css.map */
