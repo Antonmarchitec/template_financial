@@ -108,3 +108,138 @@ contHeaderMenu__logo
         }
     }
 }
+
+
+
+
+/**********************************
+****************************
+********************************/
+@media (min-width:320px) and (max-width:769px){
+    .contHeaderMenu{
+        width: 100%;
+        padding: 5px 0px;
+        background: rgb(255, 255, 255);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left:0;
+        right:0;
+        z-index: 100;
+        box-shadow: 10px 0px 5px rgb(24, 24, 24);
+        .contHeaderMenu__logo{
+            width: 230px;
+            height: 70px;
+            margin-left: 10px;
+        }
+    
+        .contHeaderMenu__menu{
+            width:200px;
+            padding:5px 0px;
+            margin-left:0;
+            position: absolute;
+            background: $color_azulVerde_solido;
+            top: 80px;
+            left: 0;
+            .menu__list{
+                width: 100%;
+                height: 100vh;
+                padding: 20px 0px;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: flex-start;
+                list-style: none;
+                .menu__item{
+                    width: 100%;
+                    height: 7vh;
+                    padding:0px;
+                    position: relative;
+                    text-align: start;
+                    .menu__link{
+                        text-decoration: none;
+                        color: $color_white;
+                        margin-left: 20px;
+                    }
+                    .menu__link:hover{
+                        color: grey ;
+                    }
+    
+                    .iconArrow{
+                        margin-left: 5px;
+                        color:$color_white;
+                        font-size: 15px;
+                    }
+                    
+                    .submenuList{
+                        width: 100%;
+                        list-style: none;
+                        position: absolute;
+                        top:40px;
+                        margin-left: 80px;
+                        opacity: 0;
+                        visibility: hidden;
+                        transition: 0.2s all;
+                        background: $color_white;
+                        z-index: 100;
+                        .submenu__item{
+                            width: 100%;
+                            padding: 8px 0px;
+                            background: $color_azulMarinoTrans;
+                            margin: 1px 0px;
+                            display: flex;
+                            justify-content: flex-start;
+                            .submenu__link{
+                                text-decoration: none;
+                                color: rgb(243, 243, 243);
+                                margin-left: 10px;
+                            }
+                        }
+                        .submenu__item:hover{
+                            background:rgba(9, 9, 9, 0.841);
+                        }
+                    }
+                    &:hover{
+                        .submenuList{
+                        opacity: 1;
+                        visibility: visible;
+                        transform: translateX(30px);
+                        cursor: pointer;
+                        }
+                    }
+                }
+            }
+        }
+    
+        .contHeaderMenu__icons{
+            padding: 5px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-left: calc(50% - 10px);
+            margin-right: 10px;
+            .iconMenu{
+                cursor: pointer;
+                font-size: 22px;
+                margin-left: 10px;
+            }
+        }
+
+        .contHeaderMenu__bars{
+            padding: 5px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background: rgb(28, 34, 204);
+            margin-right: 10px;
+            .iconBar{
+                cursor: pointer;
+                font-size: 20px;
+            }
+        }
+        
+    }
+}

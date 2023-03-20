@@ -9,7 +9,7 @@
     .grid__container{
         width: 100%;
         padding: 20px 0px;
-        background:brown;
+        background:rgb(153, 0, 0);
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: auto;
@@ -23,42 +23,124 @@
             "grid__footer             grid__footer              grid__footer";
 
             .grid__header__superior{
-                height: 80px;
-                background: rgb(239, 97, 97);
+                background: rgb(174, 217, 34);
                 padding: 5px 0px;
                 grid-area: grid__header__superior;
             }
 
             .grid__header__menu{
-                background: rgb(239, 97, 97);
+                background: rgb(99, 239, 97);
+                height:85px;
                 padding: 5px 0px;
                 grid-area: grid__header__menu;
             }
 
             .grid__banner{
-                background: rgb(239, 97, 97);
+                background: rgb(239, 168, 97);
                 padding: 5px 0px;
                 grid-area: grid__banner;
                 
             }
 
             .grid__seccion__uno{
-                background: rgb(239, 97, 97);
+                background: rgb(15, 119, 209);
                 padding: 5px 0px;
                 grid-area: grid__seccion__uno;
             }
 
             .grid__seccion__dos{
-                background: rgb(239, 97, 97);
+                background: rgb(135, 23, 141);
                 padding: 5px 0px;
                 grid-area: grid__seccion__dos;
             }
 
             .grid__footer{
-                background: rgb(239, 97, 97);
+                background: rgb(7, 20, 194);
                 padding: 5px 0px;
                 grid-area: grid__footer;
             }
 
+    }
+}
+
+
+
+
+
+
+
+
+/****************************************
+******************************
+*******************************************/
+@media (min-width:320px) and (max-width:769px){
+    .container__main{
+        width: 100%;
+        max-width: initial;
+        margin: initial;
+        padding: 10px;
+        background: rgb(141, 25, 237);
+        .grid__container{
+            width: 100%;
+            padding: 10px 0px;
+            background:rgb(153, 0, 0);
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: auto;
+            grid-gap: 1em;
+            grid-template-areas: 
+                "grid__header__menu       grid__header__menu        grid__header__menu"
+                "grid__banner             grid__banner              grid__banner"
+                "grid__seccion__uno       grid__seccion__uno        grid__seccion__uno"
+                "grid__seccion__dos       grid__seccion__dos        grid__seccion__dos"
+                "grid__header__superior   grid__header__superior    grid__header__superior"
+                "grid__footer             grid__footer              grid__footer";
+                
+    
+                .grid__header__menu{
+                    background: rgb(99, 239, 97);
+                    height:initial;
+                    height: 65px;
+                    padding: 5px 0px;
+                    grid-area: grid__header__menu;
+                }
+
+                .grid__banner{
+                    background: rgb(239, 168, 97);
+                    padding: 5px 0px;
+                    grid-area: grid__banner;
+                    
+                    
+                }
+    
+                .grid__seccion__uno{
+                    background: rgb(15, 119, 209);
+                    padding: 5px 0px;
+                    grid-area: grid__seccion__uno;
+                
+                }
+    
+                .grid__seccion__dos{
+                    background: rgb(135, 23, 141);
+                    padding: 5px 0px;
+                    grid-area: grid__seccion__dos;
+                
+                }
+
+                .grid__header__superior{
+                    background: rgb(174, 217, 34);
+                    padding: 5px 0px;
+                    grid-area: grid__header__superior;
+                
+                }
+    
+                .grid__footer{
+                    background: rgb(7, 20, 194);
+                    padding: 5px 0px;
+                    grid-area: grid__footer;
+                
+                }
+                
+        }
     }
 }
