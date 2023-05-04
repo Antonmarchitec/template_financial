@@ -1,9 +1,5 @@
 @import "variables";
 
-/*
-contHeaderMenu
-contHeaderMenu__logo
-*/
 
 .contHeaderMenu{
     width: 100%;
@@ -20,17 +16,19 @@ contHeaderMenu__logo
     box-shadow: 10px 0px 5px rgb(24, 24, 24);
 
     .contHeaderMenu__logo{
-        width: 280px;
+        width: 240px;
         height: 70px;
+        margin-left: 10px;
     }
 
     .contHeaderMenu__menu{
-        width: auto;
+        width:490px;
         padding: 5px 0px;
         background: rgb(255, 255, 255);
-        margin-left: 140px;
+        //margin-left: 140px;
+        margin-right: 10px;
         .menu__list{
-            width: 750px;
+            width: 100%;
             //background-color: rgb(255, 255, 255);
             display: flex;
             flex-direction: row;
@@ -97,15 +95,8 @@ contHeaderMenu__logo
         }
     }
 
-    .contHeaderMenu__glass{
-        padding: 5px;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        .iconGlass{
-            cursor: pointer;
-            font-size: 20px;
-        }
+    .contHeaderMenu__icons{
+        display: none;
     }
 }
 
@@ -131,9 +122,10 @@ contHeaderMenu__logo
         z-index: 100;
         box-shadow: 10px 0px 5px rgb(24, 24, 24);
         .contHeaderMenu__logo{
-            width: 230px;
+            width: 400px;
             height: 70px;
             margin-left: 10px;
+            background: rgb(255, 255, 79);
         }
     
         .contHeaderMenu__menu{
@@ -175,31 +167,35 @@ contHeaderMenu__logo
                     }
                     
                     .submenuList{
-                        width: 100%;
+                        width: 150px;
                         list-style: none;
                         position: absolute;
                         top:40px;
-                        margin-left: 80px;
+                        margin-left: 100px;
                         opacity: 0;
                         visibility: hidden;
                         transition: 0.2s all;
-                        background: $color_white;
+                        background: $color_azulVerde_solido;
                         z-index: 100;
                         .submenu__item{
-                            width: 100%;
+                            width:100%;
                             padding: 8px 0px;
                             background: $color_azulMarinoTrans;
+                            background: $color_white;
                             margin: 1px 0px;
                             display: flex;
                             justify-content: flex-start;
                             .submenu__link{
                                 text-decoration: none;
-                                color: rgb(243, 243, 243);
+                                color: $color_azulVerde_solido;
                                 margin-left: 10px;
                             }
                         }
                         .submenu__item:hover{
-                            background:rgba(9, 9, 9, 0.841);
+                            background:$color_azulVerde;
+                            .submenu__link{
+                                color: $color_white;
+                            }
                         }
                     }
                     &:hover{
@@ -221,6 +217,7 @@ contHeaderMenu__logo
             align-items: center;
             margin-left: calc(50% - 10px);
             margin-right: 10px;
+            background: rebeccapurple;
             .iconMenu{
                 cursor: pointer;
                 font-size: 22px;
@@ -228,18 +225,7 @@ contHeaderMenu__logo
             }
         }
 
-        .contHeaderMenu__bars{
-            padding: 5px;
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            background: rgb(28, 34, 204);
-            margin-right: 10px;
-            .iconBar{
-                cursor: pointer;
-                font-size: 20px;
-            }
-        }
+        
         
     }
 }

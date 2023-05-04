@@ -10,9 +10,13 @@
     position: fixed;
     bottom: 30px;
     right: 50px;
-    opacity: 1;
+    opacity: 0;
+    transition: 0.5s all;
+    background: $color_azulVerde;
+    padding: 15px;
+    z-index: 100;
     .boton__subir{
-        font-size: 50px;
+        font-size: 40px;
         color: $color_white;
         animation-name: moverTop;
         animation-duration: 1s;
@@ -34,6 +38,7 @@
     
     }
 }
-.boton_topJS{
+.boton_top_JS{
     opacity: 1;
+
 }
