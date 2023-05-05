@@ -8,9 +8,9 @@ document.addEventListener("scroll", ()=>{
     let positionScrolling = document.documentElement.scrollTop
     console.log(positionScrolling)
 
-    if(positionScrolling > posElement + 400){
+    if(positionScrolling > posElement + 500){
         botonTop.classList.add("boton_top_JS")
-    }else{
+    }else if(positionScrolling < posElement + 500){
         botonTop.classList.remove("boton_top_JS")
     }
 })

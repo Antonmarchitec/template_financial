@@ -14,7 +14,6 @@
     left: 0;
     z-index: 100;
     box-shadow: 10px 0px 5px rgb(24, 24, 24);
-
     .contHeaderMenu__logo{
         width: 240px;
         height: 70px;
@@ -122,10 +121,9 @@
         z-index: 100;
         box-shadow: 10px 0px 5px rgb(24, 24, 24);
         .contHeaderMenu__logo{
-            width: 400px;
-            height: 70px;
+            width: 420px;
+            height: 50px;
             margin-left: 10px;
-            background: rgb(255, 255, 79);
         }
     
         .contHeaderMenu__menu{
@@ -133,8 +131,8 @@
             padding:5px 0px;
             margin-left:0;
             position: absolute;
-            background: $color_azulVerde_solido;
-            top: 80px;
+            background: $color_black;
+            top: 60px;
             left: 0;
             .menu__list{
                 width: 100%;
@@ -147,10 +145,12 @@
                 list-style: none;
                 .menu__item{
                     width: 100%;
-                    height: 7vh;
-                    padding:0px;
+                    padding:10px 0px;
                     position: relative;
                     text-align: start;
+                    display: flex;
+                    justify-content:flex-start;
+                    align-items: center;
                     .menu__link{
                         text-decoration: none;
                         color: $color_white;

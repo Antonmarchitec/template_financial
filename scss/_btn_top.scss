@@ -10,11 +10,11 @@
     position: fixed;
     bottom: 30px;
     right: 50px;
-    opacity: 0;
-    transition: 0.5s all;
+    transition: 0.8s all;
     background: $color_azulVerde;
     padding: 15px;
     z-index: 100;
+    transform: translateX(100px);
     .boton__subir{
         font-size: 40px;
         color: $color_white;
@@ -39,6 +39,5 @@
     }
 }
 .boton_top_JS{
-    opacity: 1;
-
+    transform: translateX(0px);
 }

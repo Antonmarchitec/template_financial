@@ -41,7 +41,7 @@ body::-webkit-scrollbar-thumb:hover {
 .container__main .grid__container {
   width: 100%;
   padding: 20px 0px;
-  background: rgb(153, 0, 0);
+  background: rgb(55, 0, 0);
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
@@ -49,33 +49,33 @@ body::-webkit-scrollbar-thumb:hover {
   grid-template-areas: "grid__header__superior   grid__header__superior    grid__header__superior" "grid__header__menu       grid__header__menu        grid__header__menu" "grid__banner             grid__banner              grid__banner" "grid__seccion__uno       grid__seccion__uno        grid__seccion__uno" "grid__seccion__dos       grid__seccion__dos        grid__seccion__dos" "grid__footer             grid__footer              grid__footer";
 }
 .container__main .grid__container .grid__header__superior {
-  background: rgb(174, 217, 34);
+  background: brown;
   padding: 5px 0px;
   grid-area: grid__header__superior;
 }
 .container__main .grid__container .grid__header__menu {
-  background: rgb(99, 239, 97);
+  background: brown;
   height: 85px;
   padding: 5px 0px;
   grid-area: grid__header__menu;
 }
 .container__main .grid__container .grid__banner {
-  background: rgb(239, 168, 97);
+  background: brown;
   padding: 5px 0px;
   grid-area: grid__banner;
 }
 .container__main .grid__container .grid__seccion__uno {
-  background: rgb(15, 119, 209);
+  background: brown;
   padding: 5px 0px;
   grid-area: grid__seccion__uno;
 }
 .container__main .grid__container .grid__seccion__dos {
-  background: rgb(135, 23, 141);
+  background: brown;
   padding: 5px 0px;
   grid-area: grid__seccion__dos;
 }
 .container__main .grid__container .grid__footer {
-  background: rgb(7, 20, 194);
+  background: brown;
   padding: 5px 0px;
   grid-area: grid__footer;
 }
@@ -94,7 +94,6 @@ body::-webkit-scrollbar-thumb:hover {
   .container__main .grid__container {
     width: 100%;
     padding: 10px 0px;
-    background: rgb(153, 0, 0);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
@@ -102,34 +101,28 @@ body::-webkit-scrollbar-thumb:hover {
     grid-template-areas: "grid__header__menu       grid__header__menu        grid__header__menu" "grid__banner             grid__banner              grid__banner" "grid__seccion__uno       grid__seccion__uno        grid__seccion__uno" "grid__seccion__dos       grid__seccion__dos        grid__seccion__dos" "grid__header__superior   grid__header__superior    grid__header__superior" "grid__footer             grid__footer              grid__footer";
   }
   .container__main .grid__container .grid__header__menu {
-    background: rgb(99, 239, 97);
     height: initial;
     height: 65px;
     padding: 5px 0px;
     grid-area: grid__header__menu;
   }
   .container__main .grid__container .grid__banner {
-    background: rgb(239, 168, 97);
     padding: 5px 0px;
     grid-area: grid__banner;
   }
   .container__main .grid__container .grid__seccion__uno {
-    background: rgb(15, 119, 209);
     padding: 5px 0px;
     grid-area: grid__seccion__uno;
   }
   .container__main .grid__container .grid__seccion__dos {
-    background: rgb(135, 23, 141);
     padding: 5px 0px;
     grid-area: grid__seccion__dos;
   }
   .container__main .grid__container .grid__header__superior {
-    background: rgb(174, 217, 34);
     padding: 5px 0px;
     grid-area: grid__header__superior;
   }
   .container__main .grid__container .grid__footer {
-    background: rgb(7, 20, 194);
     padding: 5px 0px;
     grid-area: grid__footer;
   }
@@ -427,18 +420,17 @@ body::-webkit-scrollbar-thumb:hover {
     box-shadow: 10px 0px 5px rgb(24, 24, 24);
   }
   .contHeaderMenu .contHeaderMenu__logo {
-    width: 400px;
-    height: 70px;
+    width: 420px;
+    height: 50px;
     margin-left: 10px;
-    background: rgb(255, 255, 79);
   }
   .contHeaderMenu .contHeaderMenu__menu {
     width: 200px;
     padding: 5px 0px;
     margin-left: 0;
     position: absolute;
-    background: #081f31;
-    top: 80px;
+    background: rgb(27, 27, 27);
+    top: 60px;
     left: 0;
   }
   .contHeaderMenu .contHeaderMenu__menu .menu__list {
@@ -453,10 +445,12 @@ body::-webkit-scrollbar-thumb:hover {
   }
   .contHeaderMenu .contHeaderMenu__menu .menu__list .menu__item {
     width: 100%;
-    height: 7vh;
-    padding: 0px;
+    padding: 10px 0px;
     position: relative;
     text-align: start;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
   }
   .contHeaderMenu .contHeaderMenu__menu .menu__list .menu__item .menu__link {
     text-decoration: none;
@@ -841,11 +835,11 @@ body::-webkit-scrollbar-thumb:hover {
   position: fixed;
   bottom: 30px;
   right: 50px;
-  opacity: 0;
-  transition: 0.5s all;
+  transition: 0.8s all;
   background: rgba(8, 31, 49, 0.7254901961);
   padding: 15px;
   z-index: 100;
+  transform: translateX(100px);
 }
 .boton_top .boton__subir {
   font-size: 40px;
@@ -870,7 +864,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .boton_top_JS {
-  opacity: 1;
+  transform: translateX(0px);
 }
 
 /*# sourceMappingURL=main.css.map */
