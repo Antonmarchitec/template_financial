@@ -334,7 +334,6 @@ body::-webkit-scrollbar-thumb:hover {
 .contHeaderMenu .contHeaderMenu__menu {
   width: 490px;
   padding: 5px 0px;
-  background: rgb(255, 255, 255);
   margin-right: 10px;
 }
 .contHeaderMenu .contHeaderMenu__menu .menu__list {
@@ -420,7 +419,7 @@ body::-webkit-scrollbar-thumb:hover {
     box-shadow: 10px 0px 5px rgb(24, 24, 24);
   }
   .contHeaderMenu .contHeaderMenu__logo {
-    width: 420px;
+    width: 180px;
     height: 50px;
     margin-left: 10px;
   }
@@ -431,7 +430,8 @@ body::-webkit-scrollbar-thumb:hover {
     position: absolute;
     background: rgb(27, 27, 27);
     top: 60px;
-    left: 0;
+    left: -100%;
+    transition: 0.5s all;
   }
   .contHeaderMenu .contHeaderMenu__menu .menu__list {
     width: 100%;
@@ -503,19 +503,23 @@ body::-webkit-scrollbar-thumb:hover {
     transform: translateX(30px);
     cursor: pointer;
   }
+  .contHeaderMenu .contHeaderMenu__menu__JS {
+    left: 0;
+  }
   .contHeaderMenu .contHeaderMenu__icons {
     padding: 5px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-left: calc(50% - 10px);
     margin-right: 10px;
-    background: rebeccapurple;
   }
   .contHeaderMenu .contHeaderMenu__icons .iconMenu {
     cursor: pointer;
-    font-size: 22px;
-    margin-left: 10px;
+    font-size: 25px;
+    margin-right: 10px;
+  }
+  .contHeaderMenu .contHeaderMenu__icons .iconHamburguer {
+    background: transparent;
   }
 }
 .contBanner {

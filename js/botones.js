@@ -1,3 +1,7 @@
+
+
+// SCRIPT BOTON SUBIR
+
 let botonTop = document.querySelector("#botonTop")
 
 document.addEventListener("scroll", ()=>{
@@ -14,3 +18,20 @@ document.addEventListener("scroll", ()=>{
         botonTop.classList.remove("boton_top_JS")
     }
 })
+
+// SCRIPT BOTON SUBIR
+
+
+
+
+// SCRIPT BOTON HAMBURGUER
+let btnHamburguer = document.querySelector("#btnHamburguer")
+let contHeaderMenu__menu = document.getElementById("contHeaderMenu__menu")
+
+btnHamburguer.addEventListener("click", ()=>{
+    console.log("presionaste el botn ")
+    //contHeaderMenu__menu.classList.add("contHeaderMenu__menu__JS")
+
+})
+
+// SCRIPT BOTON HAMBURGUER
