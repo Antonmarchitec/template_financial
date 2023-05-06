@@ -20,15 +20,15 @@
             "grid__banner             grid__banner              grid__banner"
             "grid__seccion__uno       grid__seccion__uno        grid__seccion__uno"
             "grid__seccion__dos       grid__seccion__dos        grid__seccion__dos"
-            "grid__footer             grid__footer              grid__footer";
+            "grid__footer             grid__footer              grid__footer"
+            ;
 
             .grid__header__superior{
                 background: brown;
                 padding: 5px 0px;
                 grid-area: grid__header__superior;
-                display: none;
+                display: block;
             }
-
             .grid__header__menu{
                 background: brown;
                 height:85px;
@@ -61,6 +61,8 @@
                 grid-area: grid__footer;
             }
 
+            
+
     }
 }
 
@@ -91,8 +93,8 @@
                 "grid__banner             grid__banner              grid__banner"
                 "grid__seccion__uno       grid__seccion__uno        grid__seccion__uno"
                 "grid__seccion__dos       grid__seccion__dos        grid__seccion__dos"
-                "grid__header__superior   grid__header__superior    grid__header__superior"
-                "grid__footer             grid__footer              grid__footer";
+                "grid__footer             grid__footer              grid__footer"
+                "grid__header__superior   grid__header__superior    grid__header__superior";
                 
     
                 .grid__header__menu{
@@ -121,15 +123,16 @@
                 
                 }
 
-                .grid__header__superior{
-                    padding: 5px 0px;
-                    grid-area: grid__header__superior;
                 
-                }
-    
                 .grid__footer{
                     padding: 5px 0px;
                     grid-area: grid__footer;
+                
+                }
+
+                .grid__header__superior{
+                    padding: 5px 0px;
+                    grid-area: grid__header__superior;
                 
                 }
                 

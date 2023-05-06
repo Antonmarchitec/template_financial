@@ -52,7 +52,7 @@ body::-webkit-scrollbar-thumb:hover {
   background: brown;
   padding: 5px 0px;
   grid-area: grid__header__superior;
-  display: none;
+  display: block;
 }
 .container__main .grid__container .grid__header__menu {
   background: brown;
@@ -97,7 +97,7 @@ body::-webkit-scrollbar-thumb:hover {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
     grid-gap: 1em;
-    grid-template-areas: "grid__header__menu       grid__header__menu        grid__header__menu" "grid__banner             grid__banner              grid__banner" "grid__seccion__uno       grid__seccion__uno        grid__seccion__uno" "grid__seccion__dos       grid__seccion__dos        grid__seccion__dos" "grid__header__superior   grid__header__superior    grid__header__superior" "grid__footer             grid__footer              grid__footer";
+    grid-template-areas: "grid__header__menu       grid__header__menu        grid__header__menu" "grid__banner             grid__banner              grid__banner" "grid__seccion__uno       grid__seccion__uno        grid__seccion__uno" "grid__seccion__dos       grid__seccion__dos        grid__seccion__dos" "grid__footer             grid__footer              grid__footer" "grid__header__superior   grid__header__superior    grid__header__superior";
   }
   .container__main .grid__container .grid__header__menu {
     height: initial;
@@ -117,13 +117,13 @@ body::-webkit-scrollbar-thumb:hover {
     padding: 5px 0px;
     grid-area: grid__seccion__dos;
   }
-  .container__main .grid__container .grid__header__superior {
-    padding: 5px 0px;
-    grid-area: grid__header__superior;
-  }
   .container__main .grid__container .grid__footer {
     padding: 5px 0px;
     grid-area: grid__footer;
+  }
+  .container__main .grid__container .grid__header__superior {
+    padding: 5px 0px;
+    grid-area: grid__header__superior;
   }
 }
 .contHeaderSuperior {
@@ -185,6 +185,16 @@ body::-webkit-scrollbar-thumb:hover {
   transform: translateY(2px);
 }
 
+/*
+RESPONSIVE DESING OFICIAL NUEVO
+@media (min-width:1025px) and (max-width:1200px){}     175px
+@media (min-width:900px)  and (max-width:1024px){}     124px
+@media (min-width:770px)  and (max-width:899px){}      129px
+@media (min-width:641px)  and (max-width:769px){}      128px
+@media (min-width:481px)  and (max-width:640px){}      159px
+@media (min-width:320px)  and (max-width:480px){}      160px
+
+*/
 /**********************************
 ****************************
 ********************************/
@@ -251,7 +261,7 @@ body::-webkit-scrollbar-thumb:hover {
 /**********************************
 ****************************
 ********************************/
-@media (min-width: 320px) and (max-width: 769px) {
+@media (min-width: 641px) and (max-width: 769px) {
   .contHeaderSuperior {
     width: 100%;
     padding: 5px 0px;
@@ -281,12 +291,12 @@ body::-webkit-scrollbar-thumb:hover {
   }
   .contHeaderSuperior .contHeaderSuperior__blocks .blocks__box .icon__box {
     padding: 5px 8px;
-    color: white;
+    color: #ffffff;
   }
   .contHeaderSuperior .contHeaderSuperior__blocks .blocks__box .date__box {
     font-weight: 300;
     color: white;
-    font-size: 14px;
+    font-size: 13px;
   }
   .contHeaderSuperior .contHeaderSuperior__networks {
     width: 160px;
@@ -1950,16 +1960,6 @@ body::-webkit-scrollbar-thumb:hover {
   color: #ffffff;
 }
 
-/*
- RESPONSIVE DESING OFICIAL NUEVO
-@media (min-width:1025px) and (max-width:1200px){}     175px
-@media (min-width:900px)  and (max-width:1024px){}     124px
-@media (min-width:770px)  and (max-width:899px){}      129px
-@media (min-width:641px)  and (max-width:769px){}      128px
-@media (min-width:481px)  and (max-width:640px){}      159px
-@media (min-width:320px)  and (max-width:480px){}      160px
-
-*/
 @media (min-width: 770px) and (max-width: 990px) {
   .contFooter {
     width: 100%;
