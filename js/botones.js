@@ -26,11 +26,11 @@ document.addEventListener("scroll", ()=>{
 
 // SCRIPT BOTON HAMBURGUER
 let btnHamburguer = document.querySelector("#btnHamburguer")
-let contHeaderMenu__menu = document.getElementById("contHeaderMenu__menu")
+let headerMenu = document.querySelector ("#headerMenu")
 
 btnHamburguer.addEventListener("click", ()=>{
-    console.log("presionaste el botn ")
-    //contHeaderMenu__menu.classList.add("contHeaderMenu__menu__JS")
+    //console.log("presionaste el botn ")
+    headerMenu.classList.toggle("contHeaderMenu__menu__JS")
 
 })
 

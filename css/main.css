@@ -429,9 +429,9 @@ body::-webkit-scrollbar-thumb:hover {
     margin-left: 0;
     position: absolute;
     background: rgb(27, 27, 27);
-    top: 60px;
+    top: 69px;
     left: -100%;
-    transition: 0.5s all;
+    transition: 0.5s ease;
   }
   .contHeaderMenu .contHeaderMenu__menu .menu__list {
     width: 100%;
