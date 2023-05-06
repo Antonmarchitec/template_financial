@@ -1114,6 +1114,153 @@ RESPONSIVE DESING OFICIAL NUEVO
 
 
 */
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .contSecctionUno {
+    width: 100%;
+    padding: 80px 0px;
+    background: #ffffff;
+    text-align: center;
+  }
+  .contSecctionUno .contSecctionUno__title {
+    font-size: 40px;
+    color: rgb(27, 27, 27);
+  }
+  .contSecctionUno .contSecctionUno__description {
+    width: 50%;
+    padding: 5px 0px;
+    margin: 10px auto;
+    color: rgb(27, 27, 27);
+  }
+  .contSecctionUno .contSecctionUno__blocks {
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+  }
+  .contSecctionUno .contSecctionUno__blocks .blocks__boxs {
+    width: 250px;
+    height: 270px;
+    position: relative;
+    color: white;
+    overflow: hidden;
+    box-shadow: 0px 5px 5px rgb(85, 85, 85);
+  }
+  .contSecctionUno .contSecctionUno__blocks .blocks__boxs .blocks__box__image {
+    width: 100%;
+    height: 100%;
+  }
+  .contSecctionUno .contSecctionUno__blocks .blocks__boxs .blocks__box__contDescription {
+    width: 100%;
+    height: 100%;
+    background: rgba(8, 31, 49, 0.7254901961);
+    position: absolute;
+    top: 200px;
+    padding: 20px;
+    transition: 0.5s all;
+  }
+  .contSecctionUno .contSecctionUno__blocks .blocks__boxs .blocks__box__contDescription .contDescription__title {
+    font-size: 20px;
+    height: 38px;
+    line-height: 20px;
+  }
+  .contSecctionUno .contSecctionUno__blocks .blocks__boxs .blocks__box__contDescription .contDescription__text {
+    margin-top: 20px;
+    color: rgba(196, 223, 244, 0.9019607843);
+  }
+  .contSecctionUno .contSecctionUno__blocks .blocks__boxs .blocks__box__contDescription .contDescription__button {
+    margin-top: 10px;
+    padding: 8px 40px;
+    border: 1px solid rgba(196, 223, 244, 0.9019607843);
+    background: transparent;
+    color: #ffffff;
+    transition: 0.5s all;
+  }
+  .contSecctionUno .contSecctionUno__blocks .blocks__boxs .blocks__box__contDescription .contDescription__button:hover {
+    background: rgb(27, 27, 27);
+    cursor: pointer;
+  }
+  .contSecctionUno .contSecctionUno__blocks .blocks__boxs:hover .blocks__box__contDescription {
+    top: 0;
+    cursor: pointer;
+  }
+}
+@media (min-width: 900px) and (max-width: 1024px) {
+  .contSecctionUno {
+    width: 100%;
+    padding: 80px 0px;
+    background: #ffffff;
+    text-align: center;
+    background: teal;
+  }
+  .contSecctionUno .contSecctionUno__title {
+    font-size: 40px;
+    color: rgb(27, 27, 27);
+  }
+  .contSecctionUno .contSecctionUno__description {
+    width: 70%;
+    padding: 5px 0px;
+    margin: 10px auto;
+    color: rgb(27, 27, 27);
+  }
+  .contSecctionUno .contSecctionUno__blocks {
+    width: 90%;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+  }
+  .contSecctionUno .contSecctionUno__blocks .blocks__boxs {
+    width: 220px;
+    height: 290px;
+    position: relative;
+    color: white;
+    overflow: hidden;
+    box-shadow: 0px 5px 5px rgb(85, 85, 85);
+  }
+  .contSecctionUno .contSecctionUno__blocks .blocks__boxs .blocks__box__image {
+    width: 100%;
+    height: 100%;
+  }
+  .contSecctionUno .contSecctionUno__blocks .blocks__boxs .blocks__box__contDescription {
+    width: 100%;
+    height: 100%;
+    background: rgba(8, 31, 49, 0.7254901961);
+    position: absolute;
+    top: 200px;
+    padding: 20px;
+    transition: 0.5s all;
+  }
+  .contSecctionUno .contSecctionUno__blocks .blocks__boxs .blocks__box__contDescription .contDescription__title {
+    font-size: 20px;
+    height: 38px;
+    line-height: 20px;
+  }
+  .contSecctionUno .contSecctionUno__blocks .blocks__boxs .blocks__box__contDescription .contDescription__text {
+    margin-top: 20px;
+    color: rgba(196, 223, 244, 0.9019607843);
+  }
+  .contSecctionUno .contSecctionUno__blocks .blocks__boxs .blocks__box__contDescription .contDescription__button {
+    margin-top: 10px;
+    padding: 8px 40px;
+    border: 1px solid rgba(196, 223, 244, 0.9019607843);
+    background: transparent;
+    color: #ffffff;
+    transition: 0.5s all;
+  }
+  .contSecctionUno .contSecctionUno__blocks .blocks__boxs .blocks__box__contDescription .contDescription__button:hover {
+    background: rgb(27, 27, 27);
+    cursor: pointer;
+  }
+  .contSecctionUno .contSecctionUno__blocks .blocks__boxs:hover .blocks__box__contDescription {
+    top: 0;
+    cursor: pointer;
+  }
+}
 .contSectionImg {
   background-image: url(../source/FONDO2.jpg);
   background-size: 100% 100%;
