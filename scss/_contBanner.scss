@@ -154,6 +154,282 @@
 **/
 
 
+@media (min-width:770px) and (max-width:1200px){
+    .contBanner{
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+        .contBanner__blocks{
+            width:300%;
+            display: flex;
+            flex-direction: row;
+            .contBanner__boxs{
+                width: 100%;
+                height: 500px;
+                position: relative;
+                .boxs__image{
+                    width: 100%;
+                    height: 100%;
+                }
+    
+                .boxs__article{
+                    width: 100%;
+                    height: 100%;
+                    padding-top: 80px;
+                    position: absolute;
+                    top: 0;
+                    background:rgba(0, 0, 0, 0.586);
+                    text-align: center;
+                    .article__title{
+                        font-size: 60px;
+                        font-weight: 700;
+                        width: 60%;
+                        margin: auto;
+                        line-height: 60px;
+                    }
+    
+                    .article__description{
+                        width: 80%;
+                        margin: 30px auto;
+                        color: rgb(191, 191, 191);
+                        font-weight: 300;
+                    }
+    
+                    .article__button{
+                        margin:60px auto;
+                        width:70%;
+                        padding: 10px 0px;
+                        display: flex;
+                        justify-content: space-around;
+                        align-items: center;
+                        .button__learn{
+                            width: calc(50% - 50px);
+                            padding: 10px 0px;
+                            border: 1.5px solid white;
+                            background: transparent;
+                            color: white;
+                            transition: 0.5s all;
+                        }
+    
+                        .button__contact{
+                            width: calc(50% - 50px);   
+                            padding: 10px 0px;
+                            border: 1.5px solid $color_black;
+                            background:$color_black;
+                            color: white;
+                            transition: 0.5s all;
+                        }
+                       
+                    }
+                }
+    
+                
+            }
+            
+        }
+    
+        .arrowLeft{
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            top: calc(50% - 25px);
+            left: 20px;
+            .iconArrows{
+                color:$color_white;
+                font-size: 45px;
+                cursor: pointer;
+                animation-name: arrowNext;
+                animation-duration: 0.8s;
+                animation-timing-function: ease-in;
+                animation-iteration-count: infinite;
+                animation-direction: alternate;
+            }
+    
+            @keyframes arrowNext {
+                from{
+                    transform: translateX(5px);
+                    opacity: 0;
+                }to{
+                    transform: translateX(-5px);
+                    opacity: 1;
+                }
+            }
+        }
+        
+        .arrowRight{
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            top: calc(50% - 25px);
+            right: 20px;
+            .iconArrows{
+                color:$color_white;
+                font-size: 45px;
+                cursor: pointer;
+                animation-name: arrowPrev;
+                animation-duration: 0.8s;
+                animation-timing-function: ease-in;
+                animation-iteration-count: infinite;
+                animation-direction: alternate;
+            }
+    
+            @keyframes arrowPrev     {
+                from{
+                    transform: translateX(-5px);
+                    opacity: 0;
+                }to{
+                    transform: translateX(5px);
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+@media (min-width:481px) and (max-width:769px){
+    .contBanner{
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+        .contBanner__blocks{
+            width:300%;
+            display: flex;
+            flex-direction: row;
+            .contBanner__boxs{
+                width: 100%;
+                height: 500px;
+                position: relative;
+                .boxs__image{
+                    width: 100%;
+                    height: 100%;
+                }
+    
+                .boxs__article{
+                    width: 100%;
+                    height: 100%;
+                    padding-top: 80px;
+                    position: absolute;
+                    top: 0;
+                    background:rgba(0, 0, 0, 0.586);
+                    text-align: center;
+                    .article__title{
+                        font-size: 50px;
+                        font-weight: 700;
+                        width: 80%; 
+                        margin: auto;
+                        line-height: 48px;
+                    }
+    
+                    .article__description{
+                        width: 80%;
+                        margin: 30px auto;
+                        color: rgb(191, 191, 191);
+                        font-weight: 300;
+                    }
+    
+                    .article__button{
+                        margin:60px auto;
+                        width:70%;
+                        padding: 10px 0px;
+                        display: flex;
+                        justify-content: space-around;
+                        align-items: center;
+                        .button__learn{
+                            width: calc(50% - 20px);
+                            padding: 8px 0px;
+                            border: 1.5px solid white;
+                            background: transparent;
+                            color: white;
+                            transition: 0.5s all;
+                        }
+    
+                        .button__contact{
+                            width: calc(50% - 20px);   
+                            padding: 8px 0px;
+                            border: 1.5px solid $color_black;
+                            background:$color_black;
+                            color: white;
+                            transition: 0.5s all;
+                        }
+                       
+                    }
+                }
+    
+                
+            }
+            
+        }
+    
+        .arrowLeft{
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            top: calc(50% - 25px);
+            left: 20px;
+            .iconArrows{
+                color:$color_white;
+                font-size: 30px;
+                cursor: pointer;
+                animation-name: arrowNext;
+                animation-duration: 0.8s;
+                animation-timing-function: ease-in;
+                animation-iteration-count: infinite;
+                animation-direction: alternate;
+            }
+    
+            @keyframes arrowNext {
+                from{
+                    transform: translateX(5px);
+                    opacity: 0;
+                }to{
+                    transform: translateX(-5px);
+                    opacity: 1;
+                }
+            }
+        }
+        
+        .arrowRight{
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            top: calc(50% - 25px);
+            right: 20px;
+            .iconArrows{
+                color:$color_white;
+                font-size: 30px;
+                cursor: pointer;
+                animation-name: arrowPrev;
+                animation-duration: 0.8s;
+                animation-timing-function: ease-in;
+                animation-iteration-count: infinite;
+                animation-direction: alternate;
+            }
+    
+            @keyframes arrowPrev     {
+                from{
+                    transform: translateX(-5px);
+                    opacity: 0;
+                }to{
+                    transform: translateX(5px);
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
 @media (min-width:320px) and (max-width:480px){
     .contBanner{
         width: 100%;
@@ -182,9 +458,12 @@
                     background:rgba(0, 0, 0, 0.586);
                     text-align: center;
                     .article__title{
-                        color: rgb(255, 255, 255);
+                        width: 90%;
+                        margin: auto;
                         font-size: 50px;
                         font-weight: 700;
+                        line-height: 45px;
+                        width: 80%;
                     }
     
                     .article__description{
