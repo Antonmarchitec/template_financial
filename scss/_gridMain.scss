@@ -26,6 +26,7 @@
                 background: brown;
                 padding: 5px 0px;
                 grid-area: grid__header__superior;
+                display: none;
             }
 
             .grid__header__menu{
@@ -58,7 +59,6 @@
                 background: brown;
                 padding: 5px 0px;
                 grid-area: grid__footer;
-                display: none;
             }
 
     }
