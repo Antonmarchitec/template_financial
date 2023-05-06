@@ -138,3 +138,156 @@
         }
     }
 }
+
+
+
+/*
+
+  RESPONSIVE DESING OFICIAL NUEVO
+@media (min-width:1025px) and (max-width:1200px){}     175px
+@media (min-width:900px)  and (max-width:1024px){}     124px
+@media (min-width:770px)  and (max-width:899px){}      129px
+@media (min-width:641px)  and (max-width:769px){}      128px
+@media (min-width:481px)  and (max-width:640px){}      159px
+@media (min-width:320px)  and (max-width:480px){}      160px
+
+**/
+
+
+@media (min-width:320px) and (max-width:480px){
+    .contBanner{
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+        
+        .contBanner__blocks{
+            width:300%;
+            display: flex;
+            flex-direction: row;
+            .contBanner__boxs{
+                width: 100%;
+                height: 500px;
+                position: relative;
+                .boxs__image{
+                    width: 100%;
+                    height: 100%;
+                }
+    
+                .boxs__article{
+                    width: 100%;
+                    height: 100%;
+                    padding-top: 50px;
+                    position: absolute;
+                    top: 0;
+                    background:rgba(0, 0, 0, 0.586);
+                    text-align: center;
+                    .article__title{
+                        color: rgb(255, 255, 255);
+                        font-size: 50px;
+                        font-weight: 700;
+                    }
+    
+                    .article__description{
+                        width: 80%;
+                        margin: 30px auto;
+                        color: rgb(234, 234, 234);
+                        font-weight: 300;
+                        font-size: 16px;
+                    }
+    
+                    .article__button{
+                        margin:40px auto;
+                        width:100%;
+                        padding: 10px 0px;
+                        display: flex;
+                        justify-content: space-around;
+                        align-items: center;
+                        .button__learn{
+                            width: calc(50% - 20px);
+                            padding: 8px 0px;
+                            border: 1.5px solid white;
+                            background: transparent;
+                            color: white;
+                            transition: 0.5s all;
+                        }
+                       
+    
+                        .button__contact{
+                            width: calc(50% - 20px);
+                            padding: 8px 0px;
+                            border: 1.5px solid $color_black;
+                            background:$color_black;
+                            color: white;
+                            transition: 0.5s all;
+                        }
+                        
+                    }
+                } 
+            }
+            
+        }
+    
+        .arrowLeft{
+            width: 30px;
+            height: 30px;
+            position: absolute;
+            top: calc(50% - 25px);
+            left: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .iconArrows{
+                color:$color_white;
+                font-size: 25px;
+                cursor: pointer;
+                animation-name: arrowNext;
+                animation-duration: 0.8s;
+                animation-timing-function: ease-in;
+                animation-iteration-count: infinite;
+                animation-direction: alternate;
+            }
+    
+            @keyframes arrowNext {
+                from{
+                    transform: translateX(5px);
+                    opacity: 0;
+                }to{
+                    transform: translateX(-5px);
+                    opacity: 1;
+                }
+            }
+        }
+        
+        .arrowRight{
+            width: 30px;
+            height: 30px;
+            position: absolute;
+            top: calc(50% - 25px);
+            right: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .iconArrows{
+                color:$color_white;
+                font-size: 25px;
+                cursor: pointer;
+                animation-name: arrowPrev;
+                animation-duration: 0.8s;
+                animation-timing-function: ease-in;
+                animation-iteration-count: infinite;
+                animation-direction: alternate;
+            }
+    
+            @keyframes arrowPrev     {
+                from{
+                    transform: translateX(-5px);
+                    opacity: 0;
+                }to{
+                    transform: translateX(5px);
+                    opacity: 1;
+                }
+            }
+        }
+    }
+    
+} 
