@@ -84,3 +84,367 @@
         
     }
 }
+
+
+
+@media (min-width:770px) and (max-width:899px){
+    .contSectionImg{
+        background-image: url(../source/FONDO2.jpg);
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        .contSecctionDos{
+            width: 100%;
+            background:$color_azulVerde;
+            padding: 100px 0px;
+            .contSecctionDos__title{
+                color: $color_white;
+                text-align: center;
+                font-size: $font_titles;
+
+            }
+        
+            .contSecctionDos__description{
+                margin:20px auto;
+                width: 80%;
+                text-align: center;
+                color: $color_white;
+
+            }
+        
+            .contSecctionDos__blocks{
+                width: 95%;
+                height: 400px;
+                //background: rgb(27, 173, 27);
+                padding: 5px;
+                margin: auto;
+
+                //ESTRUCTURA SWIPER
+                .swiper{
+                    width: 100%;
+                    height: 100%;
+                    .swiper-wrapper{
+                        .swiper-slide{
+                            background: $color_white;
+                            text-align: center;
+                            font-size: 16px;
+                            padding: 0px 20px;
+                            /* Center slide text vertically */
+                            display: -webkit-box;
+                            display: -ms-flexbox;
+                            display: -webkit-flex;
+                            display: flex;
+                            flex-direction: column;
+                            -webkit-box-pack: center;
+                            -ms-flex-pack: center;
+                            -webkit-justify-content: center;
+                            justify-content: center;
+                            -webkit-box-align: center;
+                            -ms-flex-align: center;
+                            -webkit-align-items: center;
+                            align-items: center;
+                            .slide__img{    
+                                //background: grey;
+                                .icon__slade{
+                                    font-size: 50px;
+                                    color: $color_azulMarino;
+                                }
+                            }
+        
+                            .slade_title{
+                                margin: 20px;
+                                font-size: 22px;
+                                color: $color_black;
+                            }
+        
+                            .slade_text{
+                                color: $color_black;
+                                font-size: 16px;
+                            }
+                        }
+                    }
+        
+                    .swiper-pagination{
+                        .swiper-pagination-bullet{
+                            background: $color_azulVerde;
+                        }
+                    }
+                }
+            }
+        
+            
+        }
+    }
+}
+
+
+
+
+@media (min-width:641px) and (max-width:769px){
+    .contSectionImg{
+        background-image: url(../source/FONDO2.jpg);
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        .contSecctionDos{
+            width: 100%;
+            background:$color_azulVerde;
+            padding: 100px 0px;
+            .contSecctionDos__title{
+                color: $color_white;
+                text-align: center;
+                font-size: $font_titles;
+            }
+        
+            .contSecctionDos__description{
+                margin:20px auto;
+                width: 80%;
+                text-align: center;
+                color: $color_white;
+
+            }
+        
+            .contSecctionDos__blocks{
+                width: 95%;
+                height: 400px;
+                //background: rgb(27, 173, 27);
+                padding: 5px;
+                margin: auto;
+
+                //ESTRUCTURA SWIPER
+                .swiper{
+                    width: 100%;
+                    height: 100%;
+                    .swiper-wrapper{
+                        .swiper-slide{
+                            background: $color_white;
+                            text-align: center;
+                            font-size: 16px;
+                            padding: 0px 20px;
+                            /* Center slide text vertically */
+                            display: -webkit-box;
+                            display: -ms-flexbox;
+                            display: -webkit-flex;
+                            display: flex;
+                            flex-direction: column;
+                            -webkit-box-pack: center;
+                            -ms-flex-pack: center;
+                            -webkit-justify-content: center;
+                            justify-content: center;
+                            -webkit-box-align: center;
+                            -ms-flex-align: center;
+                            -webkit-align-items: center;
+                            align-items: center;
+                            .slide__img{    
+                                //background: grey;
+                                .icon__slade{
+                                    font-size: 50px;
+                                    color: $color_azulMarino;
+                                }
+                            }
+        
+                            .slade_title{
+                                margin: 20px;
+                                font-size: 22px;
+                                color: $color_black;
+                            }
+        
+                            .slade_text{
+                                color: $color_black;
+                                font-size: 16px;
+                            }
+                        }
+                    }
+        
+                    .swiper-pagination{
+                        .swiper-pagination-bullet{
+                            background: $color_azulVerde;
+                        }
+                    }
+                }
+            }
+        
+            
+        }
+    }
+}
+
+
+
+@media (min-width:481px) and (max-width:640px){
+    .contSectionImg{
+        background-image: url(../source/FONDO2.jpg);
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        .contSecctionDos{
+            width: 100%;
+            background:$color_azulVerde;
+            padding: 100px 0px;
+            .contSecctionDos__title{
+                color: $color_white;
+                text-align: center;
+                font-size: 36px;
+            }
+        
+            .contSecctionDos__description{
+                margin:20px auto;
+                width: 80%;
+                text-align: center;
+                color: $color_white;
+
+            }
+        
+            .contSecctionDos__blocks{
+                width: 95%;
+                height: 400px;
+                //background: rgb(27, 173, 27);
+                padding: 5px;
+                margin: auto;
+
+                //ESTRUCTURA SWIPER
+                .swiper{
+                    width: 100%;
+                    height: 100%;
+                    .swiper-wrapper{
+                        .swiper-slide{
+                            background: $color_white;
+                            text-align: center;
+                            font-size: 16px;
+                            padding: 0px 20px;
+                            /* Center slide text vertically */
+                            display: -webkit-box;
+                            display: -ms-flexbox;
+                            display: -webkit-flex;
+                            display: flex;
+                            flex-direction: column;
+                            -webkit-box-pack: center;
+                            -ms-flex-pack: center;
+                            -webkit-justify-content: center;
+                            justify-content: center;
+                            -webkit-box-align: center;
+                            -ms-flex-align: center;
+                            -webkit-align-items: center;
+                            align-items: center;
+                            .slide__img{    
+                                //background: grey;
+                                .icon__slade{
+                                    font-size: 45px;
+                                    color: $color_azulMarino;
+                                }
+                            }
+        
+                            .slade_title{
+                                margin: 20px;
+                                font-size: 22px;
+                                color: $color_black;
+                                line-height:22px ;
+                            }
+        
+                            .slade_text{
+                                color: $color_black;
+                                font-size: 16px;
+                            }
+                        }
+                    }
+        
+                    .swiper-pagination{
+                        .swiper-pagination-bullet{
+                            background: $color_azulVerde;
+                        }
+                    }
+                }
+            }
+        
+            
+        }
+    }
+}
+
+
+
+@media (min-width:320px) and (max-width:480px){
+    .contSectionImg{
+        background-image: url(../source/FONDO2.jpg);
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        .contSecctionDos{
+            width: 100%;
+            background:$color_azulVerde;
+            padding: 100px 0px;
+            .contSecctionDos__title{
+                color: $color_white;
+                text-align: center;
+                font-size: 36px;
+            }
+        
+            .contSecctionDos__description{
+                margin:20px auto;
+                width: 80%;
+                text-align: center;
+                color: $color_white;
+
+            }
+        
+            .contSecctionDos__blocks{
+                width: 95%;
+                height: 400px;
+                //background: rgb(27, 173, 27);
+                padding: 5px;
+                margin: auto;
+
+                //ESTRUCTURA SWIPER
+                .swiper{
+                    width: 100%;
+                    height: 100%;
+                    .swiper-wrapper{
+                        .swiper-slide{
+                            background: $color_white;
+                            text-align: center;
+                            font-size: 16px;
+                            padding: 0px 20px;
+                            /* Center slide text vertically */
+                            display: -webkit-box;
+                            display: -ms-flexbox;
+                            display: -webkit-flex;
+                            display: flex;
+                            flex-direction: column;
+                            -webkit-box-pack: center;
+                            -ms-flex-pack: center;
+                            -webkit-justify-content: center;
+                            justify-content: center;
+                            -webkit-box-align: center;
+                            -ms-flex-align: center;
+                            -webkit-align-items: center;
+                            align-items: center;
+                            .slide__img{    
+                                //background: grey;
+                                .icon__slade{
+                                    font-size: 55px;
+                                    color: $color_azulMarino;
+                                }
+                            }
+        
+                            .slade_title{
+                                margin: 20px;
+                                font-size: 22px;
+                                color: $color_black;
+                                line-height:22px ;
+                            }
+        
+                            .slade_text{
+                                color: $color_black;
+                                font-size: 16px;
+                            }
+                        }
+                    }
+        
+                    .swiper-pagination{
+                        .swiper-pagination-bullet{
+                            background: $color_azulVerde;
+                        }
+                    }
+                }
+            }
+        
+            
+        }
+    }
+}

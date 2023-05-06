@@ -78,6 +78,7 @@ body::-webkit-scrollbar-thumb:hover {
   background: brown;
   padding: 5px 0px;
   grid-area: grid__footer;
+  display: none;
 }
 
 /****************************************
@@ -115,17 +116,14 @@ body::-webkit-scrollbar-thumb:hover {
   .container__main .grid__container .grid__seccion__dos {
     padding: 5px 0px;
     grid-area: grid__seccion__dos;
-    display: none;
   }
   .container__main .grid__container .grid__header__superior {
     padding: 5px 0px;
     grid-area: grid__header__superior;
-    display: none;
   }
   .container__main .grid__container .grid__footer {
     padding: 5px 0px;
     grid-area: grid__footer;
-    display: none;
   }
 }
 .contHeaderSuperior {
@@ -1103,17 +1101,6 @@ body::-webkit-scrollbar-thumb:hover {
   cursor: pointer;
 }
 
-/*
-RESPONSIVE DESING OFICIAL NUEVO
-@media (min-width:1025px) and (max-width:1200px){}     175px
-@media (min-width:900px)  and (max-width:1024px){}     124px
-@media (min-width:770px)  and (max-width:899px){}      129px
-@media (min-width:641px)  and (max-width:769px){}      128px
-@media (min-width:481px)  and (max-width:640px){}      159px
-@media (min-width:320px)  and (max-width:480px){}      160px
-
-
-*/
 @media (min-width: 1025px) and (max-width: 1200px) {
   .contSecctionUno {
     width: 100%;
@@ -1643,6 +1630,284 @@ RESPONSIVE DESING OFICIAL NUEVO
   background: rgba(8, 31, 49, 0.7254901961);
 }
 
+@media (min-width: 770px) and (max-width: 899px) {
+  .contSectionImg {
+    background-image: url(../source/FONDO2.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+  }
+  .contSectionImg .contSecctionDos {
+    width: 100%;
+    background: rgba(8, 31, 49, 0.7254901961);
+    padding: 100px 0px;
+  }
+  .contSectionImg .contSecctionDos .contSecctionDos__title {
+    color: #ffffff;
+    text-align: center;
+    font-size: 40px;
+  }
+  .contSectionImg .contSecctionDos .contSecctionDos__description {
+    margin: 20px auto;
+    width: 80%;
+    text-align: center;
+    color: #ffffff;
+  }
+  .contSectionImg .contSecctionDos .contSecctionDos__blocks {
+    width: 95%;
+    height: 400px;
+    padding: 5px;
+    margin: auto;
+  }
+  .contSectionImg .contSecctionDos .contSecctionDos__blocks .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  .contSectionImg .contSecctionDos .contSecctionDos__blocks .swiper .swiper-wrapper .swiper-slide {
+    background: #ffffff;
+    text-align: center;
+    font-size: 16px;
+    padding: 0px 20px;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  .contSectionImg .contSecctionDos .contSecctionDos__blocks .swiper .swiper-wrapper .swiper-slide .slide__img .icon__slade {
+    font-size: 50px;
+    color: #081f31;
+  }
+  .contSectionImg .contSecctionDos .contSecctionDos__blocks .swiper .swiper-wrapper .swiper-slide .slade_title {
+    margin: 20px;
+    font-size: 22px;
+    color: rgb(27, 27, 27);
+  }
+  .contSectionImg .contSecctionDos .contSecctionDos__blocks .swiper .swiper-wrapper .swiper-slide .slade_text {
+    color: rgb(27, 27, 27);
+    font-size: 16px;
+  }
+  .contSectionImg .contSecctionDos .contSecctionDos__blocks .swiper .swiper-pagination .swiper-pagination-bullet {
+    background: rgba(8, 31, 49, 0.7254901961);
+  }
+}
+@media (min-width: 641px) and (max-width: 769px) {
+  .contSectionImg {
+    background-image: url(../source/FONDO2.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+  }
+  .contSectionImg .contSecctionDos {
+    width: 100%;
+    background: rgba(8, 31, 49, 0.7254901961);
+    padding: 100px 0px;
+  }
+  .contSectionImg .contSecctionDos .contSecctionDos__title {
+    color: #ffffff;
+    text-align: center;
+    font-size: 40px;
+  }
+  .contSectionImg .contSecctionDos .contSecctionDos__description {
+    margin: 20px auto;
+    width: 80%;
+    text-align: center;
+    color: #ffffff;
+  }
+  .contSectionImg .contSecctionDos .contSecctionDos__blocks {
+    width: 95%;
+    height: 400px;
+    padding: 5px;
+    margin: auto;
+  }
+  .contSectionImg .contSecctionDos .contSecctionDos__blocks .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  .contSectionImg .contSecctionDos .contSecctionDos__blocks .swiper .swiper-wrapper .swiper-slide {
+    background: #ffffff;
+    text-align: center;
+    font-size: 16px;
+    padding: 0px 20px;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  .contSectionImg .contSecctionDos .contSecctionDos__blocks .swiper .swiper-wrapper .swiper-slide .slide__img .icon__slade {
+    font-size: 50px;
+    color: #081f31;
+  }
+  .contSectionImg .contSecctionDos .contSecctionDos__blocks .swiper .swiper-wrapper .swiper-slide .slade_title {
+    margin: 20px;
+    font-size: 22px;
+    color: rgb(27, 27, 27);
+  }
+  .contSectionImg .contSecctionDos .contSecctionDos__blocks .swiper .swiper-wrapper .swiper-slide .slade_text {
+    color: rgb(27, 27, 27);
+    font-size: 16px;
+  }
+  .contSectionImg .contSecctionDos .contSecctionDos__blocks .swiper .swiper-pagination .swiper-pagination-bullet {
+    background: rgba(8, 31, 49, 0.7254901961);
+  }
+}
+@media (min-width: 481px) and (max-width: 640px) {
+  .contSectionImg {
+    background-image: url(../source/FONDO2.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+  }
+  .contSectionImg .contSecctionDos {
+    width: 100%;
+    background: rgba(8, 31, 49, 0.7254901961);
+    padding: 100px 0px;
+  }
+  .contSectionImg .contSecctionDos .contSecctionDos__title {
+    color: #ffffff;
+    text-align: center;
+    font-size: 36px;
+  }
+  .contSectionImg .contSecctionDos .contSecctionDos__description {
+    margin: 20px auto;
+    width: 80%;
+    text-align: center;
+    color: #ffffff;
+  }
+  .contSectionImg .contSecctionDos .contSecctionDos__blocks {
+    width: 95%;
+    height: 400px;
+    padding: 5px;
+    margin: auto;
+  }
+  .contSectionImg .contSecctionDos .contSecctionDos__blocks .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  .contSectionImg .contSecctionDos .contSecctionDos__blocks .swiper .swiper-wrapper .swiper-slide {
+    background: #ffffff;
+    text-align: center;
+    font-size: 16px;
+    padding: 0px 20px;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  .contSectionImg .contSecctionDos .contSecctionDos__blocks .swiper .swiper-wrapper .swiper-slide .slide__img .icon__slade {
+    font-size: 45px;
+    color: #081f31;
+  }
+  .contSectionImg .contSecctionDos .contSecctionDos__blocks .swiper .swiper-wrapper .swiper-slide .slade_title {
+    margin: 20px;
+    font-size: 22px;
+    color: rgb(27, 27, 27);
+    line-height: 22px;
+  }
+  .contSectionImg .contSecctionDos .contSecctionDos__blocks .swiper .swiper-wrapper .swiper-slide .slade_text {
+    color: rgb(27, 27, 27);
+    font-size: 16px;
+  }
+  .contSectionImg .contSecctionDos .contSecctionDos__blocks .swiper .swiper-pagination .swiper-pagination-bullet {
+    background: rgba(8, 31, 49, 0.7254901961);
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .contSectionImg {
+    background-image: url(../source/FONDO2.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+  }
+  .contSectionImg .contSecctionDos {
+    width: 100%;
+    background: rgba(8, 31, 49, 0.7254901961);
+    padding: 100px 0px;
+  }
+  .contSectionImg .contSecctionDos .contSecctionDos__title {
+    color: #ffffff;
+    text-align: center;
+    font-size: 36px;
+  }
+  .contSectionImg .contSecctionDos .contSecctionDos__description {
+    margin: 20px auto;
+    width: 80%;
+    text-align: center;
+    color: #ffffff;
+  }
+  .contSectionImg .contSecctionDos .contSecctionDos__blocks {
+    width: 95%;
+    height: 400px;
+    padding: 5px;
+    margin: auto;
+  }
+  .contSectionImg .contSecctionDos .contSecctionDos__blocks .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  .contSectionImg .contSecctionDos .contSecctionDos__blocks .swiper .swiper-wrapper .swiper-slide {
+    background: #ffffff;
+    text-align: center;
+    font-size: 16px;
+    padding: 0px 20px;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  .contSectionImg .contSecctionDos .contSecctionDos__blocks .swiper .swiper-wrapper .swiper-slide .slide__img .icon__slade {
+    font-size: 55px;
+    color: #081f31;
+  }
+  .contSectionImg .contSecctionDos .contSecctionDos__blocks .swiper .swiper-wrapper .swiper-slide .slade_title {
+    margin: 20px;
+    font-size: 22px;
+    color: rgb(27, 27, 27);
+    line-height: 22px;
+  }
+  .contSectionImg .contSecctionDos .contSecctionDos__blocks .swiper .swiper-wrapper .swiper-slide .slade_text {
+    color: rgb(27, 27, 27);
+    font-size: 16px;
+  }
+  .contSectionImg .contSecctionDos .contSecctionDos__blocks .swiper .swiper-pagination .swiper-pagination-bullet {
+    background: rgba(8, 31, 49, 0.7254901961);
+  }
+}
 .contFooter {
   width: 100%;
   padding: 10px 0px;

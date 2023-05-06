@@ -58,6 +58,7 @@
                 background: brown;
                 padding: 5px 0px;
                 grid-area: grid__footer;
+                display: none;
             }
 
     }
@@ -117,21 +118,18 @@
                 .grid__seccion__dos{
                     padding: 5px 0px;
                     grid-area: grid__seccion__dos;
-                    display: none;
                 
                 }
 
                 .grid__header__superior{
                     padding: 5px 0px;
                     grid-area: grid__header__superior;
-                    display: none;
                 
                 }
     
                 .grid__footer{
                     padding: 5px 0px;
                     grid-area: grid__footer;
-                    display: none;
                 
                 }
                 

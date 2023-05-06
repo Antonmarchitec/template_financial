@@ -25,8 +25,8 @@ let swiper = new Swiper(".swiper", {
         slidesPerView: 1,
         spaceBetween: 10,
       },
-      424: {
-        slidesPerView: 1,
+      479: {
+        slidesPerView: 2,
         spaceBetween: 10,
       },
       680: {
