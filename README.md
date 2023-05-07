@@ -26,4 +26,5 @@ https://antonmarchitec.github.io/template_financial/
 ## Frase del día:
 "Me levanto todas las mañanas sabiendo que será un gran día.".
 
-Imagen del proyecto
+## Imagen del proyecto
+![plantilla](https://user-images.githubusercontent.com/70084380/236655492-eab8370d-738e-4da9-a2f6-13ada9d11f26.jpg)
