@@ -68,6 +68,7 @@
                         width: 100%;
                         padding: 8px 0px;
                         background: $color_azulMarinoTrans;
+                        background:$color_black;
                         margin: 1px 0px;
                         display: flex;
                         justify-content: flex-start;
@@ -131,7 +132,7 @@
             padding:5px 0px;
             margin-left:0;
             position: absolute;
-            background:$color_black;
+            background:$color_azulVerde_solido;
             
             //backdrop-filter: blur(15px);
             //background: orange;
@@ -189,9 +190,10 @@
                             margin: 1px 0px;
                             display: flex;
                             justify-content: flex-start;
+                            background: $color_white;
                             .submenu__link{
                                 text-decoration: none;
-                                color: $color_azulVerde_solido;
+                                color: $color_black;
                                 margin-left: 10px;
                             }
                         }

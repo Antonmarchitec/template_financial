@@ -491,6 +491,7 @@ body::-webkit-scrollbar-thumb:hover {
   width: 100%;
   padding: 8px 0px;
   background: rgba(8, 31, 49, 0.7803921569);
+  background: rgb(27, 27, 27);
   margin: 1px 0px;
   display: flex;
   justify-content: flex-start;
@@ -542,7 +543,7 @@ body::-webkit-scrollbar-thumb:hover {
     padding: 5px 0px;
     margin-left: 0;
     position: absolute;
-    background: rgb(27, 27, 27);
+    background: #081f31;
     top: 69px;
     left: -100%;
     transition: 0.5s ease;
@@ -599,10 +600,11 @@ body::-webkit-scrollbar-thumb:hover {
     margin: 1px 0px;
     display: flex;
     justify-content: flex-start;
+    background: #ffffff;
   }
   .contHeaderMenu .contHeaderMenu__menu .menu__list .menu__item .submenuList .submenu__item .submenu__link {
     text-decoration: none;
-    color: #081f31;
+    color: rgb(27, 27, 27);
     margin-left: 10px;
   }
   .contHeaderMenu .contHeaderMenu__menu .menu__list .menu__item .submenuList .submenu__item:hover {
