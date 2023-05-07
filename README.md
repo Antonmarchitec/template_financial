@@ -17,6 +17,11 @@
 @media (min-width:320px)  and (max-width:480px){}      160px
 
 
+# COMO UTILIZAR PRELOADER
+1. ir a la pagina https://icons8.com/preloaders/
+2. copiar el codigo fuente html y css (en un archivo css no sass)
+3. configurar los archivos css y js con la animacion DOMContentLoaded
+
 
 
 Hola buenas tardes mi nombre es Antonio Ponce, vi el anuncio en el deber y me llamo mucho la atención sobre el cargo disponible, me gustaría ser parte de su equipo, cuento con certificación y conocimientos básicos en Photoshop, Illustrator y edición de video con el programa Camptasia Studio, actualmente creo contenido en mi página personal “DigitizingCode” donde comparto mis conocimientos con artes realizados por mí mismo en Facebook e Instagram, también cuento con experiencia en desarrollo de páginas y sitios web desde cero.

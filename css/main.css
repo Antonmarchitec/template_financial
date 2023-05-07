@@ -40,7 +40,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 .container__main .grid__container {
   width: 100%;
-  padding: 20px 0px;
+  padding: 0px 0px;
   background: rgb(55, 0, 0);
   display: grid;
   grid-template-columns: repeat(3, 1fr);
