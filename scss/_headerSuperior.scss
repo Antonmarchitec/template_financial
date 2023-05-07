@@ -3,7 +3,7 @@
 .contHeaderSuperior{
     width: 100%;
     padding: 5px 0px;
-    background:$color_black;
+    background:$color_azulVerde_solido;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -17,7 +17,6 @@
     .contHeaderSuperior__blocks{
         width: 50%;
         padding: 5px 0px;
-        background:$color_black;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -72,7 +71,7 @@
     .contHeaderSuperior{
         width: 100%;
         padding: 5px 0px;
-        background:$color_black;
+        background:$color_azulVerde_solido;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -85,7 +84,6 @@
         .contHeaderSuperior__blocks{
             width: 70%;
             padding: 5px 0px;
-            background:$color_black;
             display: flex;
             justify-content: space-between;
             align-items: center;
