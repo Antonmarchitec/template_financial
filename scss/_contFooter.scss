@@ -46,6 +46,19 @@
         }
     }
 }
+.contFooter__copiright{
+    text-align: center;
+    color: $color_white;
+    padding: 20px 0px;
+    background: $color_azulVerde_solido;
+    font-size: 12px;
+
+    .c_copi{
+        color: $color_azulVerde_claro;
+        font-weight: 300;
+        font-size: 12px;
+    }
+}
 
 
 
@@ -152,6 +165,10 @@
             }
         }
     }
+
+    .contFooter__copiright{
+        display: none;
+    }
 }
 
 
@@ -206,6 +223,11 @@
             }
         }
     }
+
+    .contFooter__copiright{
+        display: none;
+    }
+    
 }
 
 
@@ -260,6 +282,10 @@
                
             }
         }
+    }
+
+    .contFooter__copiright{
+        display: none;
     }
 }
 
