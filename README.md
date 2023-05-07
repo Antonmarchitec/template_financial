@@ -1,5 +1,5 @@
-# DESING AND TEMPLATE FINANCIALDESING AND TEMPLATE FINANCIAL
-## Tecnologías utilizadas para el desarrollo:Tecnologías utilizadas para el desarrollo:
+# FINANCIAL CORPORATE TEMPLATE DESIGN
+## Tecnologías utilizadas para el desarrollo:
 HTML.- Lenguaje de marcado de hipertexto para definir la estructura.
 CSS.- Hojas de estilo en cascada para el diseño visual.
 JavaScript.- Lenguaje de programación para dar funcionalidad.
@@ -10,10 +10,10 @@ Sass compiler.- Es un preprocesador CSS que nos permite generar de manera autom�
 - Página informativa.
 - página de aterrizaje
 - landing page.
-- Plantilla .
+- Plantilla corporativa.
 
 ## Descripción del proyecto:
-Página informativa desarrollada para negocios de diseño de modas, cuenta con un menú de navegación, banner principal, imágenes, secciones, slader de productos con sensibilidad touch screen, es adaptable a dispositivos de escritorio (Desktop), tablet y móvil.
+Página informativa desarrollada para empresa corporativa, cuenta con un menú de navegación, banner principal, imágenes, 2 secciones, slader de productos con sensibilidad touch screen, es adaptable a dispositivos de escritorio (Desktop), tablet y móvil.
 
 ## Diseño responsivo:
 Desktop: 1440px
@@ -24,7 +24,8 @@ Móvil: 320px
 https://antonmarchitec.github.io/template_financial/
 
 ## Frase del día:
-"Me levanto todas las mañanas sabiendo que será un gran día.".
+"La programación es el arte de organizar y dominar la complejidad." 
+-- Edsger Dijkstra --
 
 ## Imagen del proyecto
 ![plantilla](https://user-images.githubusercontent.com/70084380/236655492-eab8370d-738e-4da9-a2f6-13ada9d11f26.jpg)
