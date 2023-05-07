@@ -16,9 +16,9 @@ Sass compiler.- Es un preprocesador CSS que nos permite generar de manera autom�
 Página informativa desarrollada para empresa corporativa, cuenta con un menú de navegación, banner principal, imágenes, 2 secciones, slader de productos con sensibilidad touch screen, es adaptable a dispositivos de escritorio (Desktop), tablet y móvil.
 
 ## Diseño responsivo:
-Desktop: 1440px
-Tablet: 720px
-Móvil: 320px
+- Desktop: 1440px
+- Tablet: 720px
+- Móvil: 320px
 
 ## Vista previa:
 https://antonmarchitec.github.io/template_financial/
