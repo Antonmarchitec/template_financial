@@ -45,39 +45,32 @@ body::-webkit-scrollbar-thumb:hover {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
-  grid-gap: 1em;
   grid-template-areas: "grid__header__superior   grid__header__superior    grid__header__superior" "grid__header__menu       grid__header__menu        grid__header__menu" "grid__banner             grid__banner              grid__banner" "grid__seccion__uno       grid__seccion__uno        grid__seccion__uno" "grid__seccion__dos       grid__seccion__dos        grid__seccion__dos" "grid__footer             grid__footer              grid__footer";
 }
 .container__main .grid__container .grid__header__superior {
   background: brown;
-  padding: 5px 0px;
   grid-area: grid__header__superior;
   display: block;
 }
 .container__main .grid__container .grid__header__menu {
   background: brown;
   height: 85px;
-  padding: 5px 0px;
   grid-area: grid__header__menu;
 }
 .container__main .grid__container .grid__banner {
   background: brown;
-  padding: 5px 0px;
   grid-area: grid__banner;
 }
 .container__main .grid__container .grid__seccion__uno {
   background: brown;
-  padding: 5px 0px;
   grid-area: grid__seccion__uno;
 }
 .container__main .grid__container .grid__seccion__dos {
   background: brown;
-  padding: 5px 0px;
   grid-area: grid__seccion__dos;
 }
 .container__main .grid__container .grid__footer {
   background: brown;
-  padding: 5px 0px;
   grid-area: grid__footer;
 }
 
@@ -96,33 +89,27 @@ body::-webkit-scrollbar-thumb:hover {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
-    grid-gap: 1em;
     grid-template-areas: "grid__header__menu       grid__header__menu        grid__header__menu" "grid__banner             grid__banner              grid__banner" "grid__seccion__uno       grid__seccion__uno        grid__seccion__uno" "grid__seccion__dos       grid__seccion__dos        grid__seccion__dos" "grid__footer             grid__footer              grid__footer" "grid__header__superior   grid__header__superior    grid__header__superior";
   }
   .container__main .grid__container .grid__header__menu {
     height: initial;
-    height: 65px;
+    height: 58px;
     padding: 5px 0px;
     grid-area: grid__header__menu;
   }
   .container__main .grid__container .grid__banner {
-    padding: 5px 0px;
     grid-area: grid__banner;
   }
   .container__main .grid__container .grid__seccion__uno {
-    padding: 5px 0px;
     grid-area: grid__seccion__uno;
   }
   .container__main .grid__container .grid__seccion__dos {
-    padding: 5px 0px;
     grid-area: grid__seccion__dos;
   }
   .container__main .grid__container .grid__footer {
-    padding: 5px 0px;
     grid-area: grid__footer;
   }
   .container__main .grid__container .grid__header__superior {
-    padding: 5px 0px;
     grid-area: grid__header__superior;
   }
 }
@@ -2256,22 +2243,22 @@ body::-webkit-scrollbar-thumb:hover {
   }
 }
 .boton_top {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
   position: fixed;
   bottom: 30px;
-  right: 50px;
+  right: 20px;
   transition: 0.8s all;
   background: rgba(8, 31, 49, 0.7254901961);
-  padding: 15px;
+  padding: 5px;
   z-index: 100;
   transform: translateX(100px);
 }
 .boton_top .boton__subir {
-  font-size: 40px;
+  font-size: 28px;
   color: #ffffff;
   animation-name: moverTop;
   animation-duration: 1s;

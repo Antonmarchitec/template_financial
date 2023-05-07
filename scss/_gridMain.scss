@@ -13,7 +13,7 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: auto;
-        grid-gap: 1em;
+        //grid-gap: 1em;
         grid-template-areas: 
             "grid__header__superior   grid__header__superior    grid__header__superior"
             "grid__header__menu       grid__header__menu        grid__header__menu"
@@ -25,39 +25,39 @@
 
             .grid__header__superior{
                 background: brown;
-                padding: 5px 0px;
+                //padding: 5px 0px;
                 grid-area: grid__header__superior;
                 display: block;
             }
             .grid__header__menu{
                 background: brown;
                 height:85px;
-                padding: 5px 0px;
+                //padding: 5px 0px;
                 grid-area: grid__header__menu;
             }
 
             .grid__banner{
                 background: brown;
-                padding: 5px 0px;
+                //padding: 5px 0px;
                 grid-area: grid__banner;
                 
             }
 
             .grid__seccion__uno{
                 background: brown;
-                padding: 5px 0px;
+                //padding: 5px 0px;
                 grid-area: grid__seccion__uno;
             }
 
             .grid__seccion__dos{
                 background: brown;
-                padding: 5px 0px;
+                //padding: 5px 0px;
                 grid-area: grid__seccion__dos;
             }
 
             .grid__footer{
                 background: brown;
-                padding: 5px 0px;
+                //padding: 5px 0px;
                 grid-area: grid__footer;
             }
 
@@ -87,7 +87,7 @@
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             grid-template-rows: auto;
-            grid-gap: 1em;
+            //grid-gap: 1em;
             grid-template-areas: 
                 "grid__header__menu       grid__header__menu        grid__header__menu"
                 "grid__banner             grid__banner              grid__banner"
@@ -99,39 +99,40 @@
     
                 .grid__header__menu{
                     height:initial;
-                    height: 65px;
+                    height: 58px;
                     padding: 5px 0px;
+                    //background: greenyellow;
                     grid-area: grid__header__menu;
                 }
 
                 .grid__banner{
-                    padding: 5px 0px;
+                    //padding: 5px 0px;
                     grid-area: grid__banner;
                     
                     
                 }
     
                 .grid__seccion__uno{
-                    padding: 5px 0px;
+                    //padding: 5px 0px;
                     grid-area: grid__seccion__uno;
                 
                 }
     
                 .grid__seccion__dos{
-                    padding: 5px 0px;
+                    //padding: 5px 0px;
                     grid-area: grid__seccion__dos;
                 
                 }
 
                 
                 .grid__footer{
-                    padding: 5px 0px;
+                    //padding: 5px 0px;
                     grid-area: grid__footer;
                 
                 }
 
                 .grid__header__superior{
-                    padding: 5px 0px;
+                    //padding: 5px 0px;
                     grid-area: grid__header__superior;
                 
                 }
