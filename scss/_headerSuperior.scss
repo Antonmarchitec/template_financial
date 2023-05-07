@@ -65,18 +65,6 @@
 }
 
 
-
-/*
-RESPONSIVE DESING OFICIAL NUEVO
-@media (min-width:1025px) and (max-width:1200px){}     175px
-@media (min-width:900px)  and (max-width:1024px){}     124px
-@media (min-width:770px)  and (max-width:899px){}      129px
-@media (min-width:641px)  and (max-width:769px){}      128px
-@media (min-width:481px)  and (max-width:640px){}      159px
-@media (min-width:320px)  and (max-width:480px){}      160px
-
-*/
-
 /**********************************
 ****************************
 ********************************/
@@ -165,7 +153,6 @@ RESPONSIVE DESING OFICIAL NUEVO
         top: initial;
         left: initial;
         z-index: initial;
-
         //BLOCKS
         .contHeaderSuperior__blocks{
             width: 70%;
@@ -219,4 +206,145 @@ RESPONSIVE DESING OFICIAL NUEVO
 }
 
 
+
+/**********************************
+****************************
+********************************/
+@media (min-width:481px) and (max-width:640px){
+    .contHeaderSuperior{
+        width: 100%;
+        padding: 5px 0px;
+        background:$color_azulMarino;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+        align-items: center;
+        position: initial;
+        top: initial;
+        left: initial;
+        z-index: initial;
+        //BLOCKS
+        .contHeaderSuperior__blocks{
+            width:95%;
+            padding: 5px 0px;
+            background:$color_azulMarino;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .blocks__box{
+                width:auto;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                .icon__box{
+                    padding: 5px 8px;
+                    color: $color_white;
+                }
+                .date__box{
+                    font-weight:300;
+                    color: white;
+                    font-size: 13px;
+                }
+            }
+        }
+    
+        //BLOCKS REDES
+        .contHeaderSuperior__networks{
+            margin-top: 5px;
+            width: 50%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            .icon__networks{
+                padding: 8px;
+                background:transparent;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 20px;
+                color: white;
+                transition: 0.2s all;
+            }
+            .icon__networks:hover{
+                background: $color_white;
+                color: $color_azulMarino;
+                cursor: pointer;
+                transform: translateY(2px);
+            }
+        }        
+        
+    }
+}
+
+
+
+
+/**********************************
+****************************
+********************************/
+@media (min-width:320px) and (max-width:480px){
+    .contHeaderSuperior{
+        width: 100%;
+        padding: 5px 0px;
+        background:$color_azulMarino;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+        align-items: center;
+        position: initial;
+        top: initial;
+        left: initial;
+        z-index: initial;
+        //BLOCKS
+        .contHeaderSuperior__blocks{
+            width:95%;
+            padding: 5px 0px;
+            background:transparent;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .blocks__box{
+                width:auto;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                .icon__box{
+                    padding: 5px 8px;
+                    color: $color_white;
+                }
+                .date__box{
+                    font-weight:300;
+                    color: white;
+                    font-size: 11px;
+                }
+            }
+        }
+    
+        //BLOCKS REDES
+        .contHeaderSuperior__networks{
+            margin-top: 5px;
+            width: 50%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            .icon__networks{
+                padding: 8px;
+                background:transparent;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 20px;
+                color: white;
+                transition: 0.2s all;
+            }
+            .icon__networks:hover{
+                background: $color_white;
+                color: $color_azulMarino;
+                cursor: pointer;
+                transform: translateY(2px);
+            }
+        }        
+        
+    }
+}
 
